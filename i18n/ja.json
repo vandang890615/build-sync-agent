@@ -1,0 +1,52 @@
+{
+    "title": "Van Dang - ソフトウェアエンジニア",
+    "hero": {
+        "greeting": "こんにちは、私は",
+        "title": "AIエンジニア & フルスタック開発者",
+        "description": "AI/MLと最新のWeb技術でインテリジェントシステムを構築。LLM、オートメーションエージェント、スケーラブルアプリに特化。",
+        "cta_work": "プロジェクトを見る",
+        "cta_contact": "コンタクト"
+    },
+    "nav": {
+        "home": "ホーム",
+        "about": "概要",
+        "projects": "プロジェクト",
+        "blog": "ブログ",
+        "contact": "コンタクト"
+    },
+    "projects": {
+        "title": "私のプロジェクト",
+        "viewAll": "すべてのプロジェクトを見る →"
+    },
+    "skills": {
+        "title": "スキルと技術",
+        "aiml": {
+            "title": "AI/ML",
+            "desc": "LLMs, LangChain, TensorFlow, PyTorch"
+        },
+        "automation": {
+            "title": "オートメーション",
+            "desc": "Playwright, Selenium, Agent Frameworks"
+        },
+        "frontend": {
+            "title": "フロントエンド",
+            "desc": "React, Next.js, TypeScript, Tailwind"
+        },
+        "backend": {
+            "title": "バックエンド",
+            "desc": "Node.js, Python, PostgreSQL, MongoDB"
+        }
+    },
+    "footer": {
+        "description": "優れたウェブ体験を作ることに情熱を注ぐAIエンジニア。",
+        "quickLinks": "クイックリンク",
+        "connect": "接続",
+        "copyright": "❤️で構築"
+    },
+    "aiNews": {
+        "title": "AI とテクノロジーニュース",
+        "item1": "大規模言語モデルの最新ブレークスルー",
+        "item2": "2025年のオートメーショントレンド",
+        "item3": "Web開発におけるAIアシスタントの活用"
+    }
+}

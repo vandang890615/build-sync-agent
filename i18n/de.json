@@ -1,0 +1,60 @@
+{
+    "title": "Van Dang - Softwareentwickler",
+    "hero": {
+        "greeting": "Hallo, ich bin",
+        "title": "KI-Ingenieur & Full-Stack-Entwickler",
+        "description": "Ich baue intelligente Systeme mit AI/ML und modernen Webtechnologien. Spezialisiert auf LLMs, Automatisierungsagenten und skalierbare Anwendungen.",
+        "cta_work": "Projekte ansehen",
+        "cta_contact": "Kontakt"
+    },
+    "nav": {
+        "home": "Startseite",
+        "about": "Über mich",
+        "projects": "Projekte",
+        "blog": "Blog",
+        "contact": "Kontakt"
+    },
+    "projects": {
+        "title": "Meine Projekte",
+        "viewAll": "Alle Projekte anzeigen →"
+    },
+    "skills": {
+        "title": "Fähigkeiten & Technologien",
+        "aiml": {
+            "title": "KI/ML",
+            "desc": "LLMs, LangChain, TensorFlow, PyTorch"
+        },
+        "automation": {
+            "title": "Automatisierung",
+            "desc": "Playwright, Selenium, Agent Frameworks"
+        },
+        "frontend": {
+            "title": "Frontend",
+            "desc": "React, Next.js, TypeScript, Tailwind"
+        },
+        "backend": {
+            "title": "Backend",
+            "desc": "Node.js, Python, PostgreSQL, MongoDB"
+        }
+    },
+    "footer": {
+        "description": "KI-Ingenieur, der leidenschaftlich großartige Web-Erlebnisse schafft.",
+        "quickLinks": "Schnellzugriff",
+        "connect": "Verbinden",
+        "copyright": "Mit ❤️ gebaut"
+    },
+    "aiNews": {
+        "title": "KI & Tech Neuigkeiten",
+        "items": [
+            {
+                "title": "Neueste Durchbrüche bei großen Sprachmodellen"
+            },
+            {
+                "title": "Automatisierungstrends 2025"
+            },
+            {
+                "title": "Webentwicklung mit KI-Assistenten"
+            }
+        ]
+    }
+}

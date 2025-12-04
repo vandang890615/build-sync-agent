@@ -1,0 +1,60 @@
+{
+    "title": "Van Dang - 소프트웨어 엔지니어",
+    "hero": {
+        "greeting": "안녕하세요, 저는",
+        "title": "AI 엔지니어 & 풀스택 개발자",
+        "description": "AI/ML 및 최신 웹 기술을 사용해 지능형 시스템을 구축합니다. LLM, 자동화 에이전트, 확장 가능한 애플리케이션에 특화.",
+        "cta_work": "프로젝트 보기",
+        "cta_contact": "연락하기"
+    },
+    "nav": {
+        "home": "홈",
+        "about": "소개",
+        "projects": "프로젝트",
+        "blog": "블로그",
+        "contact": "연락처"
+    },
+    "projects": {
+        "title": "내 프로젝트",
+        "viewAll": "모든 프로젝트 보기 →"
+    },
+    "skills": {
+        "title": "기술 및 스킬",
+        "aiml": {
+            "title": "AI/ML",
+            "desc": "LLMs, LangChain, TensorFlow, PyTorch"
+        },
+        "automation": {
+            "title": "자동화",
+            "desc": "Playwright, Selenium, Agent Frameworks"
+        },
+        "frontend": {
+            "title": "프론트엔드",
+            "desc": "React, Next.js, TypeScript, Tailwind"
+        },
+        "backend": {
+            "title": "백엔드",
+            "desc": "Node.js, Python, PostgreSQL, MongoDB"
+        }
+    },
+    "footer": {
+        "description": "훌륭한 웹 경험을 만드는 AI 엔지니어.",
+        "quickLinks": "빠른 링크",
+        "connect": "연결",
+        "copyright": "❤️와 함께 구축"
+    },
+    "aiNews": {
+        "title": "AI 및 기술 뉴스",
+        "items": [
+            {
+                "title": "대규모 언어 모델 최신 돌파구"
+            },
+            {
+                "title": "2025년 자동화 트렌드"
+            },
+            {
+                "title": "AI 어시스턴트를 활용한 웹 개발"
+            }
+        ]
+    }
+}

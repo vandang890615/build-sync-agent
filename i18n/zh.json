@@ -1,0 +1,63 @@
+{
+    "title": "Van Dang - 软件工程师",
+    "hero": {
+        "greeting": "你好，我是",
+        "title": "AI工程师 & 全栈开发者",
+        "description": "使用AI/ML和现代Web技术构建智能系统。专注于大型语言模型、自动化代理和可扩展应用。",
+        "cta_work": "查看项目",
+        "cta_contact": "联系"
+    },
+    "nav": {
+        "home": "首页",
+        "about": "关于",
+        "projects": "项目",
+        "blog": "博客",
+        "contact": "联系"
+    },
+    "projects": {
+        "title": "我的项目",
+        "viewAll": "查看全部项目 →"
+    },
+    "skills": {
+        "title": "技能与技术",
+        "aiml": {
+            "title": "AI/ML",
+            "desc": "LLMs, LangChain, TensorFlow, PyTorch"
+        },
+        "automation": {
+            "title": "自动化",
+            "desc": "Playwright, Selenium, Agent Frameworks"
+        },
+        "frontend": {
+            "title": "前端",
+            "desc": "React, Next.js, TypeScript, Tailwind"
+        },
+        "backend": {
+            "title": "后端",
+            "desc": "Node.js, Python, PostgreSQL, MongoDB"
+        }
+    },
+    "footer": {
+        "description": "热衷于构建优秀的网页体验的AI工程师。",
+        "quickLinks": "快速链接",
+        "connect": "联系",
+        "copyright": "用❤️构建"
+    },
+    "aiNews": {
+        "title": "AI 与技术新闻",
+        "items": [
+            {
+                "title": "大型语言模型的最新突破",
+                "link": "#"
+            },
+            {
+                "title": "2025年自动化趋势",
+                "link": "#"
+            },
+            {
+                "title": "AI助手在Web开发中的应用",
+                "link": "#"
+            }
+        ]
+    }
+}
