@@ -1,15 +1,62 @@
 {
-    "title": "Van Dang - Nhà phát triển phần mềm",
-    "heroGreeting": "Chào mừng đến với trang cá nhân của tôi",
-    "aboutTitle": "Giới thiệu",
-    "projectsTitle": "Dự án",
-    "blogTitle": "Blog",
-    "contactTitle": "Liên hệ",
-    "aiSectionTitle": "Trí tuệ nhân tạo & Machine Learning",
-    "automationSectionTitle": "Tự động hoá",
-    "webDevSectionTitle": "Phát triển Web",
-    "readMore": "Đọc thêm",
-    "email": "Email",
-    "github": "GitHub",
-    "linkedin": "LinkedIn"
+    "nav": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "projects": "Dự án",
+        "blog": "Blog",
+        "contact": "Liên hệ"
+    },
+    "hero": {
+        "greeting": "Xin chào, tôi là",
+        "title": "Kỹ sư AI & Nhà phát triển Full-Stack",
+        "description": "Xây dựng các hệ thống thông minh với AI/ML và công nghệ web hiện đại. Chuyên về LLMs, automation agents và ứng dụng có khả năng mở rộng.",
+        "cta_work": "Xem dự án",
+        "cta_contact": "Liên hệ"
+    },
+    "skills": {
+        "title": "Kỹ năng & Công nghệ",
+        "aiml": {
+            "title": "AI/ML",
+            "desc": "LLMs, LangChain, TensorFlow, PyTorch"
+        },
+        "automation": {
+            "title": "Automation",
+            "desc": "Playwright, Selenium, Agent Frameworks"
+        },
+        "frontend": {
+            "title": "Frontend",
+            "desc": "React, Next.js, TypeScript, Tailwind"
+        },
+        "backend": {
+            "title": "Backend",
+            "desc": "Node.js, Python, PostgreSQL, MongoDB"
+        }
+    },
+    "projects": {
+        "title": "Dự án của tôi",
+        "viewAll": "Xem tất cả dự án"
+    },
+    "footer": {
+        "description": "Kỹ sư AI đam mê xây dựng trải nghiệm web tuyệt vời.",
+        "quickLinks": "Liên kết nhanh",
+        "connect": "Kết nối",
+        "copyright": "Được xây dựng với ❤️"
+    },
+    "aiNews": {
+        "title": "Tin tức AI & Công nghệ",
+        "items": [
+            {
+                "title": "Những đột phá mới nhất về Mô hình Ngôn ngữ Lớn",
+                "link": "#"
+            },
+            {
+                "title": "Xu hướng tự động hóa 2025",
+                "link": "#"
+            },
+            {
+                "title": "Phát triển web với trợ lý AI",
+                "link": "#"
+            }
+        ]
+    }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="vi" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -9,35 +9,96 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="projects.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .lang-switcher {
+            position: relative;
+        }
+
+        .lang-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .lang-btn:hover {
+            border-color: var(--accent);
+        }
+
+        .lang-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 0.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 12px var(--shadow);
+            min-width: 180px;
+            z-index: 1000;
+        }
+
+        .lang-option {
+            display: block;
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: none;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+            color: var(--text-primary);
+            transition: background 0.2s;
+        }
+
+        .lang-option:hover {
+            background: var(--bg-secondary);
+        }
+
+        .lang-option.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        .logo-img {
+            height: 40px;
+            width: auto;
+        }
+    </style>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <a href="index.html" class="logo">JD</a>
+            <a href="index.html" class="logo">
+                <img src="logo.svg" alt="Logo" class="logo-img">
+            </a>
             <button class="nav-toggle">☰</button>
             <nav class="nav">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
+                <a href="index.html" data-i18n="nav.home">Trang chủ</a>
+                <a href="about.html" data-i18n="nav.about">Giới thiệu</a>
+                <a href="projects.html" class="active" data-i18n="nav.projects">Dự án</a>
+                <a href="blog.html" data-i18n="nav.blog">Blog</a>
+                <a href="contact.html" data-i18n="nav.contact">Liên hệ</a>
             </nav>
-            <button class="theme-toggle" id="themeToggle"><span class="theme-icon">🌙</span></button>
+            <div class="lang-switcher">
+                <button class="lang-btn" id="langBtn" onclick="toggleLanguageMenu()">🇻🇳 Tiếng Việt</button>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
         </div>
     </header>
 
     <main>
-        <section class="page-header">
+        <section class="projects-hero">
             <div class="container">
-                <h1>My Projects</h1>
-                <p>A collection of my work and side projects</p>
-            </div>
-        </section>
-
-        <section class="projects-section">
-            <div class="container">
-                <div class="projects-grid" id="projectsGrid"></div>
+                <h1 class="section-title" data-i18n="projects.title">Dự án của tôi</h1>
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be loaded here -->
+                </div>
             </div>
         </section>
     </main>
@@ -47,32 +108,34 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Van Dang</h3>
-                    <p>Software Engineer passionate about building great web experiences.</p>
+                    <p data-i18n="footer.description">AI Engineer passionate about building great web experiences.</p>
                 </div>
                 <div class="footer-section">
-                    <h3>Quick Links</h3>
+                    <h3 data-i18n="footer.quickLinks">Quick Links</h3>
                     <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+                        <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+                        <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>Connect</h3>
+                    <h3 data-i18n="footer.connect">Connect</h3>
                     <ul>
                         <li><a href="https://github.com/vandang890615" target="_blank">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/%C4%91%E1%BA%B7ng-nguy%E1%BB%85n-41674b241/" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://twitter.com/vandang890615" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/%C4%91%E1%BA%B7ng-nguy%E1%BB%85n-41674b241/"
+                                target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:vandang890615@gmail.com">Email</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Van Dang. Built with ❤️</p>
+                <p>&copy; 2024 Van Dang. <span data-i18n="footer.copyright">Built with ❤️</span></p>
             </div>
         </div>
     </footer>
 
+    <script src="i18n.js"></script>
     <script src="main.js"></script>
     <script src="projects.js"></script>
 </body>
