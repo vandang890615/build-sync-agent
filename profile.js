@@ -7,7 +7,7 @@ const userData = {
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=vandang",
     social: [
         { name: "GitHub", url: "https://github.com/vandang890615" },
-        { name: "LinkedIn", url: "https://www.linkedin.com/in/%C4%91%E1%BA%B7ng-nguy%E1%BB%85n-41674b241/" },
+        { name: "LinkedIn", url: "https://www.linkedin.com/in/vandang890615/" },
         { name: "Email", url: "mailto:vandang890615@gmail.com" }
     ]
 };
