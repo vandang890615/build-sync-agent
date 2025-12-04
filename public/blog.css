@@ -1,0 +1,39 @@
+.blog-section {
+    padding: 2rem 0 4rem;
+}
+
+.blog-grid {
+    display: grid;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-card {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.blog-card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.blog-meta {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .blog-card {
+        flex-direction: column;
+    }
+
+    .blog-card img {
+        width: 100%;
+        height: 200px;
+    }
+}

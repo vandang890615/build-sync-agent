@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "title": "Getting Started with Modern JavaScript",
+        "excerpt": "Learn the fundamentals of ES6+ features including arrow functions, destructuring, and async/await.",
+        "date": "2024-11-15",
+        "readTime": "5 min read",
+        "tags": [
+            "JavaScript",
+            "Tutorial",
+            "Beginner"
+        ],
+        "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 2,
+        "title": "Building Scalable React Applications",
+        "excerpt": "Best practices for structuring large React apps with proper state management and component architecture.",
+        "date": "2024-11-01",
+        "readTime": "8 min read",
+        "tags": [
+            "React",
+            "Architecture",
+            "Advanced"
+        ],
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 3,
+        "title": "Introduction to TypeScript",
+        "excerpt": "Why TypeScript is becoming essential for modern web development and how to get started.",
+        "date": "2024-10-20",
+        "readTime": "6 min read",
+        "tags": [
+            "TypeScript",
+            "Tutorial",
+            "Intermediate"
+        ],
+        "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=400&fit=crop"
+    }
+]

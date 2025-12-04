@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Van Dang - Software Engineer & Developer</title>
+    <meta name="description"
+        content="Portfolio of Van Dang - Software Engineer specializing in web development, React, and Node.js">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">JD</a>
+            <button class="nav-toggle">☰</button>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Van Dang</span>
+                    </h1>
+                    <p class="hero-subtitle">Software Engineer & Full-Stack Developer</p>
+                    <p class="hero-description">
+                        I build exceptional digital experiences that combine beautiful design with powerful
+                        functionality.
+                        Specialized in React, Node.js, and cloud architecture.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="projects.html" class="btn btn-primary">View My Work</a>
+                        <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="featured-projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid" id="featuredProjects">
+                    <!-- Loaded dynamically -->
+                </div>
+                <div class="section-cta">
+                    <a href="projects.html" class="btn btn-outline">View All Projects →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">⚛️</div>
+                        <h3>Frontend</h3>
+                        <p>React, Next.js, TypeScript, Tailwind CSS</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🔧</div>
+                        <h3>Backend</h3>
+                        <p>Node.js, Express, PostgreSQL, MongoDB</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">☁️</div>
+                        <h3>Cloud & DevOps</h3>
+                        <p>AWS, Docker, CI/CD, GitHub Actions</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>Design</h3>
+                        <p>Figma, UI/UX, Responsive Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Van Dang</h3>
+                    <p>Software Engineer passionate about building great web experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="https://github.com/vandang890615" target="_blank">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/vandang890615" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/vandang890615" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Van Dang. Built with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>

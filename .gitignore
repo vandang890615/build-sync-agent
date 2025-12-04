@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+.env
+dist/
+build/
+.cache/
+playwright-report/
+test-results/
+user_state.json
