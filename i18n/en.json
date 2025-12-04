@@ -14,9 +14,41 @@
         "blog": "Blog",
         "contact": "Contact"
     },
+    "about": {
+        "title": "About Me",
+        "bio": "Passionate software engineer with 8+ years of experience building scalable web applications. Specialized in modern JavaScript frameworks, cloud architecture, and developer tooling. Love solving complex problems and mentoring junior developers."
+    },
+    "profile": {
+        "name": "Van Dang",
+        "title": "Senior Software Engineer",
+        "location": "🌍 San Francisco, CA"
+    },
+    "connect": {
+        "title": "Connect"
+    },
     "projects": {
         "title": "My Projects",
-        "viewAll": "View All Projects →"
+        "viewAll": "View All Projects →",
+        "pageTitle": "My Projects",
+        "pageDesc": "A collection of my work and side projects"
+    },
+    "blog": {
+        "pageTitle": "Blog",
+        "pageDesc": "Thoughts on web development, tech, and more"
+    },
+    "contact": {
+        "pageTitle": "Get In Touch",
+        "pageDesc": "Have a project in mind? Let's talk!",
+        "infoTitle": "Contact Information",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send Message"
+        }
     },
     "skills": {
         "title": "Skills & Technologies",

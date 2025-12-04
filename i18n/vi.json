@@ -13,6 +13,42 @@
         "cta_work": "Xem dự án",
         "cta_contact": "Liên hệ"
     },
+    "about": {
+        "title": "Về tôi",
+        "bio": "Kỹ sư phần mềm đam mê xây dựng các ứng dụng web có khả năng mở rộng. Chuyên về các framework JavaScript hiện đại, kiến trúc đám mây và công cụ phát triển. Yêu thích giải quyết các vấn đề phức tạp và hướng dẫn các nhà phát triển trẻ."
+    },
+    "profile": {
+        "name": "Van Dang",
+        "title": "Kỹ sư phần mềm cấp cao",
+        "location": "🌍 San Francisco, CA"
+    },
+    "connect": {
+        "title": "Kết nối"
+    },
+    "projects": {
+        "title": "Dự án của tôi",
+        "viewAll": "Xem tất cả dự án",
+        "pageTitle": "Dự án của tôi",
+        "pageDesc": "Bộ sưu tập các công việc và dự án cá nhân của tôi"
+    },
+    "blog": {
+        "pageTitle": "Blog",
+        "pageDesc": "Suy nghĩ về phát triển web, công nghệ và nhiều hơn nữa"
+    },
+    "contact": {
+        "pageTitle": "Liên hệ",
+        "pageDesc": "Bạn có ý tưởng dự án? Hãy cùng thảo luận!",
+        "infoTitle": "Thông tin liên hệ",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "form": {
+            "name": "Tên",
+            "email": "Email",
+            "message": "Tin nhắn",
+            "send": "Gửi tin nhắn"
+        }
+    },
     "skills": {
         "title": "Kỹ năng & Công nghệ",
         "aiml": {
@@ -31,10 +67,6 @@
             "title": "Backend",
             "desc": "Node.js, Python, PostgreSQL, MongoDB"
         }
-    },
-    "projects": {
-        "title": "Dự án của tôi",
-        "viewAll": "Xem tất cả dự án"
     },
     "footer": {
         "description": "Kỹ sư AI đam mê xây dựng trải nghiệm web tuyệt vời.",
