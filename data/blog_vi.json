@@ -42,6 +42,24 @@
         "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=400&fit=crop"
     },
     {
+        "id": 4,
+        "title": "Sự trỗi dậy của Agentic AI",
+        "excerpt": "Cách các tác nhân tự trị đang chuyển đổi phát triển phần mềm và tự động hóa.",
+        "content": "<p>Agentic AI không chỉ trả lời câu hỏi mà còn có thể thực hiện hành động. Từ việc viết code đến quản lý quy trình làm việc, các tác nhân AI đang thay đổi cách chúng ta làm việc.</p>",
+        "date": "2024-12-01",
+        "readTime": "7 phút đọc",
+        "tags": [
+            "AI",
+            "Agents",
+            "Tương lai"
+        ],
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 5,
+        "title": "Hiểu về Mô hình Ngôn ngữ Lớn",
+        "excerpt": "Đi sâu vào cách LLM hoạt động và ứng dụng của chúng trong công nghệ hiện đại.",
+        "content": "<p>LLM như GPT-4 và Gemini được huấn luyện trên lượng dữ liệu khổng lồ để hiểu và tạo ra văn bản giống con người. Chúng là nền tảng của cuộc cách mạng AI hiện tại.</p>",
         "date": "2024-11-25",
         "readTime": "10 phút đọc",
         "tags": [
@@ -59,13 +77,38 @@
         "date": "2024-12-05",
         "readTime": "6 phút đọc",
         "tags": [
-            "date": "2024-12-07",
-            "readTime": "4 phút đọc",
-            "tags": [
-                "Web",
-                "Vật lý",
-                "Vui vẻ"
-            ],
-            "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop"
-        }
-    ]
+            "AI",
+            "Google",
+            "Năng suất"
+        ],
+        "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 7,
+        "title": "🍌 Nano Banana: Trình Tạo Ảnh AI Tối Ưu, Cực Nhẹ từ Google",
+        "excerpt": "Nano Banana là một mô hình tạo ảnh tiên tiến được phát triển bởi Google, kết hợp hiệu suất mạnh mẽ và kích thước cực kỳ nhỏ gọn.",
+        "content": "<p>Nano Banana là một mô hình tạo ảnh tiên tiến được phát triển bởi Google. Điều đặc biệt và làm nên tên tuổi của nó là sự kết hợp giữa hiệu suất mạnh mẽ trong việc tạo ra những hình ảnh chất lượng cao và kích thước mô hình cực kỳ nhỏ gọn. Đúng như tên gọi \"Nano\", nó là một giải pháp đột phá cho việc triển khai AI tạo sinh trên các thiết bị có tài nguyên hạn chế.</p><h3>✨ Đặc Điểm Nổi Bật</h3><p>Nano Banana được thiết kế để giải quyết bài toán lớn nhất của các mô hình tạo ảnh hiện đại (như Stable Diffusion hay Midjourney) là dung lượng lớn và yêu cầu tài nguyên tính toán cao.</p><ul><li><strong>Kích Thước Cực Nhẹ (Nano):</strong> Đây là ưu điểm lớn nhất. Mô hình Nano Banana được tối ưu hóa để có kích thước file nhỏ hơn đáng kể so với các đối thủ, cho phép nó chạy mượt mà trên CPU thông thường, thiết bị di động, hoặc các hệ thống nhúng (edge devices) mà không cần đến GPU cao cấp.</li><li><strong>Tốc Độ Xử Lý Nhanh:</strong> Do kích thước nhỏ, mô hình có thể được tải và xử lý nhanh chóng hơn, rút ngắn thời gian từ lúc nhập câu lệnh (prompt) đến lúc tạo ra hình ảnh cuối cùng.</li><li><strong>Khả Năng Sinh Ảnh Chất Lượng:</strong> Mặc dù nhỏ gọn, Nano Banana vẫn giữ được khả năng tạo ra các hình ảnh có độ chi tiết và độ trung thực cao, cho thấy hiệu quả của các kỹ thuật nén và tối ưu hóa mô hình tiên tiến.</li><li><strong>Tối Ưu cho Ứng Dụng Thực Tế:</strong> Sự nhẹ nhàng này mở ra cánh cửa cho các ứng dụng mới mà trước đây không khả thi, ví dụ như tạo ảnh AI trực tiếp trên trình duyệt hoặc tích hợp vào các ứng dụng di động mà không cần kết nối cloud.</li></ul><h3>⚙️ Công Nghệ Đằng Sau Mô Hình</h3><p>Nano Banana là một ví dụ về xu hướng \"AI nhỏ gọn\" (TinyML). Dù Google chưa công bố chi tiết kiến trúc kỹ thuật nội bộ, mô hình này khả năng cao sử dụng các kỹ thuật tiên tiến sau để đạt được sự cân bằng giữa hiệu suất và kích thước:</p><ul><li><strong>Lượng Tử Hóa Mô Hình (Model Quantization):</strong> Thay vì sử dụng số thực 32-bit (FP32) truyền thống, mô hình có thể được chuyển sang dùng số nguyên 8-bit (INT8) hoặc thậm chí 4-bit, giúp giảm kích thước file từ 4 đến 8 lần mà vẫn giữ được độ chính xác chấp nhận được.</li><li><strong>Chưng Cất Tri Thức (Knowledge Distillation):</strong> Một mô hình lớn và mạnh mẽ (Teacher Model) được dùng để \"dạy\" một mô hình nhỏ hơn (Student Model). Mô hình nhỏ học cách bắt chước đầu ra của mô hình lớn, cho phép nó đạt được hiệu suất tương đương với kích thước nhỏ hơn nhiều.</li><li><strong>Kiến Trúc Tối Ưu (Efficient Architectures):</strong> Sử dụng các kiến trúc mạng nơ-ron được thiết kế đặc biệt để giảm số lượng tham số và phép tính, như việc sử dụng cơ chế chú ý (attention mechanism) được tối giản hóa.</li></ul><h3>💡 Ứng Dụng Tiềm Năng</h3><p>Sự ra đời của Nano Banana mang lại lợi ích to lớn cho nhiều lĩnh vực:</p><ul><li><strong>Phần Mềm Thiết Kế và Sáng Tạo:</strong> Giúp các nhà thiết kế nhanh chóng tạo ra các biến thể hình ảnh hoặc ý tưởng trực tiếp trong các phần mềm mà không cần đợi kết nối mạng hoặc máy chủ.</li><li><strong>Phát Triển Game:</strong> Tự động tạo texture, vật phẩm hoặc bối cảnh trong game một cách nhanh chóng và hiệu quả về chi phí.</li><li><strong>Thương Mại Điện Tử:</strong> Tạo hình ảnh sản phẩm đa dạng cho các cửa hàng trực tuyến mà không tốn nhiều chi phí chụp ảnh thực tế.</li><li><strong>AI Giáo Dục và Nghiên Cứu:</strong> Cung cấp một công cụ mạnh mẽ, dễ tiếp cận cho sinh viên và nhà nghiên cứu để thử nghiệm các mô hình AI tạo sinh mà không cần tài nguyên đắt đỏ.</li></ul><p>Tóm lại, Nano Banana không chỉ là một trình tạo ảnh mà còn là một minh chứng cho thấy tương lai của AI tạo sinh đang hướng tới sự phân tán (decentralization) và khả năng tiếp cận (accessibility). Google đã đặt một tiêu chuẩn mới về việc làm thế nào để tối ưu hóa hiệu suất của AI trong một gói \"Nano\" nhỏ bé.</p>",
+        "date": "2024-12-06",
+        "readTime": "5 phút đọc",
+        "tags": [
+            "AI",
+            "Google",
+            "Nano"
+        ],
+        "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 8,
+        "title": "Google Anti Gravity: Thách thức Vật lý bằng Mã",
+        "excerpt": "Nhìn lại easter egg Google Anti Gravity kinh điển và cách các công cụ vật lý web hiện đại đã phát triển.",
+        "content": "<h3>Một cú nhấp chuột, mọi thứ sụp đổ</h3><p>Google Anti Gravity là một trong những 'Easter Egg' nổi tiếng nhất của Google. Khi bạn truy cập trang này, giao diện tìm kiếm quen thuộc đột nhiên mất trọng lực và các thành phần rơi tự do xuống đáy màn hình.</p><h3>Công nghệ phía sau</h3><p>Dự án này sử dụng thư viện vật lý JavaScript (như Box2D hoặc Matter.js) để mô phỏng trọng lực, va chạm và lực tác động ngay trong trình duyệt.</p><h3>Bài học cho lập trình viên</h3><p>Mặc dù chỉ là một trò đùa vui vẻ, Google Anti Gravity đã mở đường cho các trải nghiệm web tương tác phong phú ngày nay.</p><ul><li><strong>Web không tĩnh:</strong> Các trang web có thể sống động và phản hồi như một trò chơi.</li><li><strong>Sáng tạo không giới hạn:</strong> Code không chỉ là chức năng, nó còn là nghệ thuật và giải trí.</li></ul><p>Hãy thử nghiệm và phá vỡ các quy tắc vật lý trong dự án tiếp theo của bạn!</p>",
+        "date": "2024-12-07",
+        "readTime": "4 phút đọc",
+        "tags": [
+            "Web",
+            "Vật lý",
+            "Vui vẻ"
+        ],
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop"
+    }
+]
