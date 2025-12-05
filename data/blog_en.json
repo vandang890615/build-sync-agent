@@ -3,6 +3,7 @@
         "id": 1,
         "title": "Getting Started with Modern JavaScript",
         "excerpt": "Learn the fundamentals of ES6+ features including arrow functions, destructuring, and async/await.",
+        "content": "<p>JavaScript has evolved significantly. ES6 introduced features that make coding easier and more fun.</p><h3>Arrow Functions</h3><p>Concise syntax for functions.</p>",
         "date": "2024-11-15",
         "readTime": "5 min read",
         "tags": [
@@ -16,6 +17,7 @@
         "id": 2,
         "title": "Building Scalable React Applications",
         "excerpt": "Best practices for structuring large React apps with proper state management and component architecture.",
+        "content": "<p>Structuring large React apps requires careful planning. Use Context API or Redux for state management.</p>",
         "date": "2024-11-01",
         "readTime": "8 min read",
         "tags": [
@@ -29,6 +31,7 @@
         "id": 3,
         "title": "Introduction to TypeScript",
         "excerpt": "Why TypeScript is becoming essential for modern web development and how to get started.",
+        "content": "<p>TypeScript adds static typing to JavaScript, helping catch errors early.</p>",
         "date": "2024-10-20",
         "readTime": "6 min read",
         "tags": [
@@ -42,6 +45,7 @@
         "id": 4,
         "title": "The Rise of Agentic AI",
         "excerpt": "How autonomous agents are transforming software development and automation.",
+        "content": "<p>Agentic AI can perform actions, not just answer questions. It's the future of automation.</p>",
         "date": "2024-12-01",
         "readTime": "7 min read",
         "tags": [
@@ -55,6 +59,7 @@
         "id": 5,
         "title": "Understanding Large Language Models",
         "excerpt": "A deep dive into how LLMs work and their applications in modern tech.",
+        "content": "<p>LLMs like GPT-4 are trained on massive datasets to understand and generate human-like text.</p>",
         "date": "2024-11-25",
         "readTime": "10 min read",
         "tags": [
@@ -68,6 +73,7 @@
         "id": 6,
         "title": "Google NotebookLM: The Future of AI Note-Taking",
         "excerpt": "Discover how Google's NotebookLM uses Gemini Pro to transform your documents into an intelligent research assistant.",
+        "content": "<h3>What is NotebookLM?</h3><p>Google NotebookLM is an AI-powered note-taking tool designed to help you understand and synthesize information from your own documents.</p><h3>Key Features</h3><ul><li><strong>Grounded Answers:</strong> AI answers based only on your documents.</li><li><strong>Audio Overview:</strong> Turn your notes into a podcast-like discussion.</li></ul>",
         "date": "2024-12-05",
         "readTime": "6 min read",
         "tags": [
@@ -81,6 +87,7 @@
         "id": 7,
         "title": "Google Nano Banana: A Sweet AI Surprise",
         "excerpt": "Exploring the fun and potential of Google's latest experimental AI project, 'Nano Banana'. What does it mean for mobile AI?",
+        "content": "<h3>What is Nano Banana?</h3><p>A fun codename for Google's latest mobile AI experiments using Gemini Nano.</p><h3>Sweet Tech</h3><p>Powerful AI right in your pocket, offline and fast.</p>",
         "date": "2024-12-06",
         "readTime": "5 min read",
         "tags": [
@@ -94,6 +101,7 @@
         "id": 8,
         "title": "Google Anti Gravity: Defying Physics with Code",
         "excerpt": "A look back at the classic Google Anti Gravity easter egg and how modern web physics engines have evolved.",
+        "content": "<h3>Falling Down</h3><p>The classic easter egg where Google search results fall due to gravity.</p><h3>The Tech</h3><p>Powered by physics engines like Box2D.</p>",
         "date": "2024-12-07",
         "readTime": "4 min read",
         "tags": [

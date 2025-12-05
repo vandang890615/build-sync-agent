@@ -3,6 +3,7 @@
         "id": 1,
         "title": "Bắt đầu với JavaScript Hiện đại",
         "excerpt": "Tìm hiểu các nguyên tắc cơ bản của các tính năng ES6+ bao gồm arrow functions, destructuring và async/await.",
+        "content": "<p>JavaScript đã phát triển vượt bậc trong những năm qua. ES6 (ECMAScript 2015) đã giới thiệu nhiều tính năng mới giúp việc viết code trở nên dễ dàng và thú vị hơn.</p><h3>Arrow Functions</h3><p>Cú pháp ngắn gọn hơn cho các hàm.</p><h3>Destructuring</h3><p>Trích xuất dữ liệu từ mảng hoặc đối tượng một cách dễ dàng.</p><h3>Async/Await</h3><p>Xử lý bất đồng bộ theo cách đồng bộ, giúp code dễ đọc hơn.</p>",
         "date": "2024-11-15",
         "readTime": "5 phút đọc",
         "tags": [
@@ -16,6 +17,7 @@
         "id": 2,
         "title": "Xây dựng Ứng dụng React Có khả năng Mở rộng",
         "excerpt": "Các phương pháp hay nhất để cấu trúc các ứng dụng React lớn với quản lý trạng thái và kiến trúc thành phần phù hợp.",
+        "content": "<p>Khi ứng dụng React phát triển, việc giữ cho code có tổ chức là rất quan trọng. Hãy chia nhỏ các component, sử dụng Context API hoặc Redux để quản lý trạng thái, và tuân thủ các nguyên tắc thiết kế tốt.</p>",
         "date": "2024-11-01",
         "readTime": "8 phút đọc",
         "tags": [
@@ -29,6 +31,7 @@
         "id": 3,
         "title": "Giới thiệu về TypeScript",
         "excerpt": "Tại sao TypeScript đang trở nên cần thiết cho phát triển web hiện đại và cách bắt đầu.",
+        "content": "<p>TypeScript mang lại kiểu dữ liệu tĩnh cho JavaScript, giúp phát hiện lỗi sớm và cải thiện trải nghiệm phát triển. Nó đặc biệt hữu ích cho các dự án lớn.</p>",
         "date": "2024-10-20",
         "readTime": "6 phút đọc",
         "tags": [
@@ -42,6 +45,7 @@
         "id": 4,
         "title": "Sự trỗi dậy của Agentic AI",
         "excerpt": "Cách các tác nhân tự trị đang chuyển đổi phát triển phần mềm và tự động hóa.",
+        "content": "<p>Agentic AI không chỉ trả lời câu hỏi mà còn có thể thực hiện hành động. Từ việc viết code đến quản lý quy trình làm việc, các tác nhân AI đang thay đổi cách chúng ta làm việc.</p>",
         "date": "2024-12-01",
         "readTime": "7 phút đọc",
         "tags": [
@@ -55,6 +59,7 @@
         "id": 5,
         "title": "Hiểu về Mô hình Ngôn ngữ Lớn",
         "excerpt": "Đi sâu vào cách LLM hoạt động và ứng dụng của chúng trong công nghệ hiện đại.",
+        "content": "<p>LLM như GPT-4 và Gemini được huấn luyện trên lượng dữ liệu khổng lồ để hiểu và tạo ra văn bản giống con người. Chúng là nền tảng của cuộc cách mạng AI hiện tại.</p>",
         "date": "2024-11-25",
         "readTime": "10 phút đọc",
         "tags": [
@@ -68,6 +73,7 @@
         "id": 6,
         "title": "Google NotebookLM: Tương lai của Ghi chú AI",
         "excerpt": "Khám phá cách NotebookLM của Google sử dụng Gemini Pro để biến tài liệu của bạn thành trợ lý nghiên cứu thông minh.",
+        "content": "<h3>NotebookLM là gì?</h3><p>Google NotebookLM là một công cụ ghi chú được hỗ trợ bởi AI, được thiết kế để giúp bạn hiểu và tổng hợp thông tin từ các tài liệu của riêng bạn. Không giống như các chatbot AI thông thường, NotebookLM được 'neo' vào các tài liệu bạn tải lên, đảm bảo câu trả lời luôn có nguồn gốc và đáng tin cậy.</p><h3>Tính năng nổi bật</h3><ul><li><strong>Nguồn gốc đáng tin cậy:</strong> AI chỉ trả lời dựa trên tài liệu bạn cung cấp.</li><li><strong>Tóm tắt thông minh:</strong> Tự động tạo tóm tắt, danh sách ý chính và câu hỏi thường gặp.</li><li><strong>Audio Overview: Phương pháp mới nhất cho phép biến tài liệu của bạn thành một cuộc thảo luận podcast hấp dẫn giữa hai 'host' AI.</strong></li></ul><h3>Tại sao nó quan trọng?</h3><p>NotebookLM đại diện cho một bước chuyển mình từ việc tìm kiếm thông tin sang việc <em>tương tác</em> với thông tin. Nó giúp các nhà nghiên cứu, sinh viên và chuyên gia tiết kiệm hàng giờ đọc và tổng hợp tài liệu.</p>",
         "date": "2024-12-05",
         "readTime": "6 phút đọc",
         "tags": [
@@ -81,6 +87,7 @@
         "id": 7,
         "title": "Google Nano Banana: Sự bất ngờ ngọt ngào từ AI",
         "excerpt": "Khám phá tiềm năng thú vị của dự án AI thử nghiệm mới nhất của Google, 'Nano Banana'. Điều này có ý nghĩa gì đối với AI trên di động?",
+        "content": "<h3>Dự án Nano Banana là gì?</h3><p>'Nano Banana' là tên mã thú vị cho một loạt các thử nghiệm AI mới nhất của Google, tập trung vào việc đưa các mô hình ngôn ngữ nhỏ gọn nhưng mạnh mẽ (như Gemini Nano) lên các thiết bị di động.</p><h3>Vị ngọt của công nghệ</h3><p>Giống như một quả chuối cung cấp năng lượng tức thì, Nano Banana mang lại sức mạnh AI ngay trong lòng bàn tay bạn mà không cần kết nối internet.</p><ul><li><strong>Tốc độ:</strong> Xử lý ngay trên thiết bị, không có độ trễ mạng.</li><li><strong>Riêng tư:</strong> Dữ liệu của bạn không bao giờ rời khỏi điện thoại.</li><li><strong>Sáng tạo:</strong> Tạo caption ảnh, tóm tắt tin nhắn và gợi ý trả lời thông minh.</li></ul><h3>Tương lai của Mobile AI</h3><p>Dự án này cho thấy tương lai nơi mọi chiếc điện thoại đều có một 'bộ não' AI riêng, sẵn sàng hỗ trợ bạn mọi lúc mọi nơi.</p>",
         "date": "2024-12-06",
         "readTime": "5 phút đọc",
         "tags": [
@@ -94,6 +101,7 @@
         "id": 8,
         "title": "Google Anti Gravity: Thách thức Vật lý bằng Mã",
         "excerpt": "Nhìn lại easter egg Google Anti Gravity kinh điển và cách các công cụ vật lý web hiện đại đã phát triển.",
+        "content": "<h3>Một cú nhấp chuột, mọi thứ sụp đổ</h3><p>Google Anti Gravity là một trong những 'Easter Egg' nổi tiếng nhất của Google. Khi bạn truy cập trang này, giao diện tìm kiếm quen thuộc đột nhiên mất trọng lực và các thành phần rơi tự do xuống đáy màn hình.</p><h3>Công nghệ phía sau</h3><p>Dự án này sử dụng thư viện vật lý JavaScript (như Box2D hoặc Matter.js) để mô phỏng trọng lực, va chạm và lực tác động ngay trong trình duyệt.</p><h3>Bài học cho lập trình viên</h3><p>Mặc dù chỉ là một trò đùa vui vẻ, Google Anti Gravity đã mở đường cho các trải nghiệm web tương tác phong phú ngày nay.</p><ul><li><strong>Web không tĩnh:</strong> Các trang web có thể sống động và phản hồi như một trò chơi.</li><li><strong>Sáng tạo không giới hạn:</strong> Code không chỉ là chức năng, nó còn là nghệ thuật và giải trí.</li></ul><p>Hãy thử nghiệm và phá vỡ các quy tắc vật lý trong dự án tiếp theo của bạn!</p>",
         "date": "2024-12-07",
         "readTime": "4 phút đọc",
         "tags": [
