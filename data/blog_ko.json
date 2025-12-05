@@ -1,75 +1,81 @@
 [
     {
         "id": 1,
-        "title": "Getting Started with Modern JavaScript",
-        "excerpt": "Learn the fundamentals of ES6+ features including arrow functions, destructuring, and async/await.",
+        "title": "모던 JavaScript 시작하기",
+        "excerpt": "화살표 함수, 구조 분해 할당, async/await를 포함한 ES6+ 기능의 기초를 배웁니다.",
+        "content": "<p>JavaScript는 지난 몇 년 동안 크게 발전했습니다. ES6(ECMAScript 2015)는 코딩을 더 쉽고 재미있게 만드는 많은 새로운 기능을 도입했습니다.</p><h3>화살표 함수</h3><p>함수를 위한 간결한 문법.</p><h3>구조 분해 할당</h3><p>배열이나 객체에서 데이터를 쉽게 추출합니다.</p><h3>Async/Await</h3><p>비동기 처리를 동기적으로 작성하여 코드를 읽기 쉽게 만듭니다.</p>",
         "date": "2024-11-15",
-        "readTime": "5 min read",
+        "readTime": "5분 분량",
         "tags": [
             "JavaScript",
-            "Tutorial",
-            "Beginner"
+            "튜토리얼",
+            "기초"
         ],
         "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=800&h=400&fit=crop"
     },
     {
         "id": 2,
-        "title": "Building Scalable React Applications",
-        "excerpt": "Best practices for structuring large React apps with proper state management and component architecture.",
+        "title": "확장 가능한 React 애플리케이션 구축",
+        "excerpt": "적절한 상태 관리와 컴포넌트 아키텍처를 갖춘 대규모 React 앱을 구축하기 위한 모범 사례.",
+        "content": "<p>React 앱이 성장함에 따라 코드를 체계적으로 유지하는 것이 중요합니다. 컴포넌트를 분리하고, 상태 관리에 Context API 또는 Redux를 사용하고, 좋은 디자인 원칙을 따르세요.</p>",
         "date": "2024-11-01",
-        "readTime": "8 min read",
+        "readTime": "8분 분량",
         "tags": [
             "React",
-            "Architecture",
-            "Advanced"
+            "아키텍처",
+            "고급"
         ],
         "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop"
     },
     {
         "id": 3,
-        "title": "Introduction to TypeScript",
-        "excerpt": "Why TypeScript is becoming essential for modern web development and how to get started.",
+        "title": "TypeScript 소개",
+        "excerpt": "왜 TypeScript가 현대 웹 개발에 필수적인 요소가 되고 있는지, 그리고 시작하는 방법.",
+        "content": "<p>TypeScript는 JavaScript에 정적 타이핑을 제공하여 오류를 조기에 발견하고 개발 경험을 향상시킵니다. 대규모 프로젝트에 특히 유용합니다.</p>",
         "date": "2024-10-20",
-        "readTime": "6 min read",
+        "readTime": "6분 분량",
         "tags": [
             "TypeScript",
-            "Tutorial",
-            "Intermediate"
+            "튜토리얼",
+            "중급"
         ],
         "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=400&fit=crop"
     },
     {
         "id": 4,
-        "title": "The Rise of Agentic AI",
-        "excerpt": "How autonomous agents are transforming software development and automation.",
+        "title": "Agentic AI의 부상",
+        "excerpt": "자율 에이전트가 소프트웨어 개발과 자동화를 어떻게 변화시키고 있는지.",
+        "content": "<p>Agentic AI는 질문에 답하는 것뿐만 아니라 작업을 수행할 수 있습니다. 코드 작성부터 워크플로 관리까지, AI 에이전트는 우리가 일하는 방식을 바꾸고 있습니다.</p>",
         "date": "2024-12-01",
-        "readTime": "7 min read",
+        "readTime": "7분 분량",
         "tags": [
             "AI",
-            "Agents",
-            "Future"
+            "에이전트",
+            "미래"
         ],
         "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
     },
     {
         "id": 5,
-        "title": "Understanding Large Language Models",
-        "excerpt": "A deep dive into how LLMs work and their applications in modern tech.",
+        "title": "대규모 언어 모델 이해하기",
+        "excerpt": "LLM의 작동 방식과 현대 기술에서의 응용에 대해 깊이 알아봅니다.",
+        "content": "<p>GPT-4 및 Gemini와 같은 LLM은 인간과 유사한 텍스트를 이해하고 생성하기 위해 방대한 데이터 세트에서 훈련됩니다. 그들은 현재 AI 혁명의 기반입니다.</p>",
         "date": "2024-11-25",
-        "readTime": "10 min read",
+        "readTime": "10분 분량",
         "tags": [
             "AI",
             "LLM",
-            "Deep Learning"
+            "딥러닝"
         ],
         "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop"
     },
     {
         "id": 6,
-        "title": "Google NotebookLM: AI 노트 필기의 미래",
-        "excerpt": "Google의 NotebookLM이 Gemini Pro를 사용하여 문서를 지능형 연구 보조 도구로 변환하는 방법을 알아보세요.",
+        "title": "Google NotebookLM: 강력한 연구 및 정보 종합 도우미",
+        "excerpt": "NotebookLM은 LLM의 힘을 활용하여 개인 문서를 대화형 작업 공간으로 변환하여 탁월한 연구 및 정보 종합을 가능하게 합니다.",
+        "content": "<p>NotebookLM(Notebook Language Model)은 Google이 개발한 선구적인 도구로, Gemini와 같은 대규모 언어 모델(LLM)의 힘을 사용하여 사용자의 개인 문서를 탁월한 연구, 종합 및 콘텐츠 생성이 가능한 대화형 작업 공간으로 변환합니다.</p><p>범용 AI 챗봇과 달리 NotebookLM은 사용자의 자체 지식 소스에 집중하도록 특별히 설계되었습니다. 질문에 답할 뿐만 아니라 제공한 문서를 더 깊이 이해하는 데 도움이 됩니다.</p><h3>✨ 핵심 기능</h3><p>NotebookLM은 신뢰할 수 있는 개인 소스에서 지식을 발굴하는 데 도움이 되는 \"연구 동반자\" 역할을 합니다.</p><ul><li><strong>소스 그라운딩(Source Grounding):</strong> 이것이 가장 중요한 기능입니다. 문서(PDF, Google Docs, 슬라이드, 텍스트 파일)를 업로드하면 NotebookLM이 해당 콘텐츠를 색인화합니다. AI가 생성하는 모든 답변, 요약 또는 아이디어는 항상 제공한 문서의 정확한 출처와 함께 인용되므로 컨텍스트가 없는 LLM에서 흔히 발생하는 \"환각(hallucination)\" 문제가 제거됩니다. 최대 20개의 소스를 업로드할 수 있으며 문서당 페이지 제한이 상당히 큽니다.</li><li><strong>대화형 어시스턴트:</strong> 콘텐츠에 대해 질문하거나, 요약을 요청하거나, 다른 문서 간의 연관성을 찾도록 요청할 수 있습니다. 예: \"문서 1과 3에서 Nano Banana에 대한 요점을 요약해 줘\", \"내 노트에서 웹 프로그래밍 용어를 나열해 줘\".</li><li><strong>콘텐츠 생성 및 서식 지정:</strong> NotebookLM은 요약만 하는 것이 아니라 소스에서 유용한 서식을 만들 수도 있습니다.<ul><li><em>개요 생성:</em> 업로드된 모든 문서를 기반으로 기사 또는 보고서 구조를 구축합니다.</li><li><em>플래시카드:</em> 학습 또는 복습을 위한 플래시카드를 자동으로 생성합니다.</li><li><em>초안 작성:</em> 소스에 포함된 사실이나 데이터를 기반으로 서론, 결론 또는 전문적인 이메일을 작성합니다.</li></ul></li></ul><h3>🚀 주요 장점</h3><ul><li><strong>높은 신뢰성:</strong> 답변을 특정 문서에 근거하게 함으로써 NotebookLM은 제공된 정보의 진위성을 강화하며, 이는 학술 연구 및 비즈니스에서 매우 중요합니다.</li><li><strong>중앙 집중식 작업 공간:</strong> 문서, 브라우저 및 요약 도구 간에 전환할 필요가 없습니다. 모든 것이 단일 인터페이스에서 이루어집니다.</li><li><strong>작가의 막힘 해소:</strong> 기존 지식을 기반으로 아이디어, 제목 또는 단락을 빠르게 생성하여 사용자가 창의적인 장벽을 극복하도록 돕습니다.</li></ul><h3>💡 실제 적용 사례</h3><ul><li><strong>연구원 및 학자:</strong> 수십 개의 과학 논문에서 데이터를 종합하고, 논문 개요를 작성하거나, 이론 간의 대조를 찾습니다.</li><li><strong>비즈니스 분석:</strong> 시장 보고서를 요약하고, 고객 프로필을 분석하거나, 내부 문서에서 추세를 찾습니다.</li><li><strong>프로그래머 및 엔지니어:</strong> 기술 문서, API 가이드 및 회의록을 종합하여 새로운 프로젝트나 복잡한 시스템을 빠르게 이해합니다.</li></ul><p>요약하자면, Google NotebookLM은 AI 개인화의 중요한 진전입니다. 스마트하고 신뢰할 수 있는 작업 환경을 제공하여 사용자가 방대한 양의 개인 데이터를 실행 가능한 지식으로 변환하도록 돕습니다.</p>",
         "date": "2024-12-05",
-        "readTime": "6분 읽기",
+        "readTime": "6분 분량",
         "tags": [
             "AI",
             "Google",
@@ -79,23 +85,25 @@
     },
     {
         "id": 7,
-        "title": "Google Nano Banana: 달콤한 AI 서프라이즈",
-        "excerpt": "Google의 최신 실험적 AI 프로젝트인 'Nano Banana'의 재미와 잠재력을 탐구합니다. 모바일 AI에 어떤 의미가 있을까요?",
+        "title": "🍌 Nano Banana: Google의 궁극적인 초경량 AI 이미지 생성기",
+        "excerpt": "Nano Banana는 Google이 개발한 고급 이미지 생성 모델로, 강력한 성능과 매우 작은 크기를 결합했습니다.",
+        "content": "<p>Nano Banana는 Google이 개발한 고급 이미지 생성 모델입니다. 특별하고 유명한 점은 고품질 이미지를 생성하는 강력한 성능과 매우 작은 모델 크기의 결합입니다. \"Nano\"라는 이름 그대로, 리소스가 제한된 장치에 생성형 AI를 배포하기 위한 획기적인 솔루션입니다.</p><h3>✨ 주요 특징</h3><p>Nano Banana는 현대 이미지 생성 모델(Stable Diffusion 또는 Midjourney 등)의 가장 큰 문제인 큰 크기와 높은 계산 리소스 요구 사항을 해결하도록 설계되었습니다.</p><ul><li><strong>초경량 크기(Nano):</strong> 이것이 가장 큰 장점입니다. Nano Banana 모델은 경쟁 제품에 비해 파일 크기가 훨씬 작도록 최적화되어 있어 고급 GPU 없이도 일반 CPU, 모바일 장치 또는 엣지 장치에서 원활하게 실행할 수 있습니다.</li><li><strong>빠른 처리 속도:</strong> 크기가 작기 때문에 모델을 더 빨리 로드하고 처리할 수 있어 프롬프트 입력부터 최종 이미지 생성까지의 시간을 단축합니다.</li><li><strong>고품질 이미지 생성:</strong> 작지만 Nano Banana는 여전히 높은 디테일과 충실도로 이미지를 생성하는 기능을 유지하여 고급 압축 및 모델 최적화 기술의 효과를 보여줍니다.</li><li><strong>실제 애플리케이션에 최적화:</strong> 이러한 가벼움은 브라우저에서 직접 AI 이미지를 생성하거나 클라우드 연결 없이 모바일 앱에 통합하는 등 이전에는 불가능했던 새로운 애플리케이션의 문을 엽니다.</li></ul><h3>⚙️ 모델 뒤의 기술</h3><p>Nano Banana는 \"TinyML\" 트렌드의 한 예입니다. Google은 자세한 내부 기술 아키텍처를 공개하지 않았지만, 이 모델은 성능과 크기 간의 균형을 맞추기 위해 다음과 같은 고급 기술을 사용할 가능성이 높습니다.</p><ul><li><strong>모델 양자화(Model Quantization):</strong> 기존의 32비트 부동 소수점 숫자(FP32)를 사용하는 대신 모델을 8비트 정수(INT8) 또는 4비트를 사용하도록 변환하여 허용 가능한 정확도를 유지하면서 파일 크기를 4~8배 줄일 수 있습니다.</li><li><strong>지식 증류(Knowledge Distillation):</strong> 크고 강력한 모델(교사 모델)을 사용하여 더 작은 모델(학생 모델)을 \"가르칩니다\". 작은 모델은 큰 모델의 출력을 모방하는 법을 배워 훨씬 작은 크기로 비슷한 성능을 달성할 수 있습니다.</li><li><strong>효율적인 아키텍처(Efficient Architectures):</strong> 단순화된 어텐션 메커니즘을 사용하는 등 매개변수와 계산 수를 줄이도록 특별히 설계된 신경망 아키텍처를 사용합니다.</li></ul><h3>💡 잠재적 응용 분야</h3><p>Nano Banana의 탄생은 많은 분야에 큰 이점을 가져다줍니다.</p><ul><li><strong>디자인 및 크리에이티브 소프트웨어:</strong> 디자이너가 네트워크 연결이나 서버를 기다리지 않고 소프트웨어 내에서 직접 이미지 변형이나 아이디어를 빠르게 만들 수 있도록 돕습니다.</li><li><strong>게임 개발:</strong> 게임 내 텍스처, 아이템 또는 배경을 빠르고 비용 효율적으로 자동 생성합니다.</li><li><strong>전자 상거래:</strong> 실제 촬영 비용을 많이 들이지 않고 온라인 상점을 위한 다양한 제품 이미지를 만듭니다.</li><li><strong>AI 교육 및 연구:</strong> 학생과 연구원이 비싼 리소스 없이 생성형 AI 모델을 실험할 수 있는 강력하고 접근하기 쉬운 도구를 제공합니다.</li></ul><p>요컨대, Nano Banana는 단순한 이미지 생성기가 아니라 생성형 AI의 미래가 분산화와 접근성으로 향하고 있다는 증거이기도 합니다. Google은 작은 \"Nano\" 패키지에서 AI 성능을 최적화하는 방법에 대한 새로운 표준을 세웠습니다.</p>",
         "date": "2024-12-06",
-        "readTime": "5분 읽기",
+        "readTime": "5분 분량",
         "tags": [
             "AI",
-            "실험",
-            "모바일"
+            "Google",
+            "Nano"
         ],
         "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?w=800&h=400&fit=crop"
     },
     {
         "id": 8,
-        "title": "Google Anti Gravity: 코드로 물리학에 도전하다",
-        "excerpt": "고전적인 Google Anti Gravity 이스터 에그와 최신 웹 물리 엔진의 진화를 되돌아봅니다.",
+        "title": "🚀 Google Antigravity: 에이전트 우선 통합 개발 플랫폼",
+        "excerpt": "Google Antigravity는 코드 지원에서 자율 AI 에이전트를 사용하여 복잡한 작업을 관리하고 실행하는 것으로의 주요 전환을 알리는 고급 IDE입니다.",
+        "content": "<p>Google Antigravity는 Google이 개발하여 2025년 말에 발표한 고급 통합 개발 환경(IDE)입니다. 이는 단순히 프로그래머가 코드를 작성하도록 돕는 것(기존 코드 제안 도구처럼)에서 자율 AI 에이전트(Autonomous AI Agents)를 사용하여 복잡한 작업을 관리, 계획, 실행 및 검증하는 것으로 소프트웨어 개발 철학의 큰 변화를 나타냅니다.</p><p>Antigravity는 Visual Studio Code의 핵심을 기반으로 구축되었으며 고급 AI 모델, 특히 Gemini 3 Pro에 의해 구동됩니다.</p><h3>🛠️ 운영 철학: 에이전트 우선(Agent-First)</h3><p>Antigravity는 \"에이전트 우선\" 철학에 따라 작동합니다.</p><ul><li><strong>자율 에이전트:</strong> AI는 단순한 채팅 도우미나 코드 제안자가 아닙니다. 복잡한 작업(예: \"이 프로젝트에 Google 로그인 기능 추가\")을 완료하기 위해 자동으로 계획을 세우고, 터미널 명령을 실행하고, 코드를 편집하고, 브라우저와 상호 작용할 수 있는 에이전트입니다.</li><li><strong>제어 및 감독:</strong> 프로그래머는 아키텍트 역할을 하여 상위 수준의 목표를 설정하고 아티팩트(Artifacts)를 통해 에이전트의 활동을 감독합니다. 에이전트는 사용자와의 신뢰를 구축하기 위해 검증 가능한 증거(작업 계획, 구현 계획, 테스트 결과 또는 웹 브라우징 기록 등)를 생성해야 합니다.</li><li><strong>멀티태스킹:</strong> Antigravity를 사용하면 사용자가 서로 다른 작업 공간에서 병렬로(비동기적으로) 실행되는 여러 에이전트를 관리할 수 있어 여러 작업을 동시에 자동화하는 데 도움이 됩니다.</li></ul><h3>🔑 Antigravity의 주요 구성 요소</h3><p>Antigravity는 AI 시대의 프로그래머를 위한 \"미션 컨트롤\"이 되도록 설계되었습니다. 두 가지 주요 뷰가 있습니다.</p><ul><li><strong>에디터 뷰(Editor View):</strong> VS Code와 유사한 친숙한 인터페이스입니다. 사이드바에서 AI 에이전트와 채팅하고 상호 작용할 수 있으며, 컨텍스트 인식 자동 완성 및 자연어 코드 명령과 같은 코드 지원 기능을 제공합니다.</li><li><strong>에이전트 매니저 뷰(Agent Manager View):</strong> 여러 활성 에이전트의 진행 상황을 생성, 관리 및 추적하기 위한 제어 센터입니다. 프로그래머가 실행 단계를 모니터링하고, 생성된 아티팩트를 확인하고, 필요할 때 개입할 수 있습니다.</li></ul><p>또한 Antigravity는 다른 강력한 도구도 통합합니다.</p><ul><li><strong>Antigravity 브라우저:</strong> AI 에이전트가 완전히 관리하는 통합 브라우저입니다. 사용자 인터페이스(UI)와 상호 작용하거나 E2E(End-to-End) 테스트를 실행해야 할 때 에이전트는 브라우저 하위 에이전트를 호출하여 처리합니다.</li><li><strong>멀티 모델 지원:</strong> Gemini 3 Pro를 주력으로 사용하지만 Antigravity는 Claude 3.5 Sonnet 및 OpenAI 모델과 같은 다른 AI 모델도 지원하여 개발자에게 유연성을 제공합니다.</li></ul><h3>📈 이점 및 과제</h3><h4>이점</h4><ul><li><strong>고수준 성능 향상:</strong> 프로그래머는 반복적인 코딩, 테스트 및 배포 작업을 수행하는 대신 아키텍처 설계 및 목표 정의에 집중할 수 있습니다.</li><li><strong>자동화된 테스트:</strong> 에이전트는 복잡한 브라우저 시나리오를 포함하여 포괄적인 테스트를 자동으로 작성하고 실행할 수 있습니다.</li><li><strong>지속적인 학습:</strong> 에이전트는 유용한 컨텍스트와 코드 조각을 지식 베이스에 저장하여 향후 작업의 성능을 향상시킬 수 있습니다.</li></ul><h4>과제</h4><ul><li><strong>리소스 및 성능:</strong> 복잡한 AI 에이전트가 있는 로컬 실행 IDE(Mac, Windows, Linux)로서 Antigravity는 많은 RAM을 소비할 수 있으며 에이전트의 \"생각\" 및 계획 프로세스로 인해 때때로 지연 시간이 길어질 수 있습니다.</li><li><strong>사용 제한:</strong> 공개 미리 보기 단계이며 개인 계정은 무료이지만 Google은 에이전트가 처리하는 작업량을 기준으로 속도 제한을 부과합니다.</li><li><strong>새로운 기술 요구 사항:</strong> 프로그래머는 기존의 수동 코딩과는 다른, 에이전트와 효과적으로 협력하고 \"지휘\"하는 방법을 배워야 합니다.</li></ul><p>Antigravity는 미래의 프로그래머 역할을 주요 코드 작성자에서 AI 에이전트의 관리자 및 아키텍트로 재정의하는 도약을 나타냅니다.</p>",
         "date": "2024-12-07",
-        "readTime": "4분 읽기",
+        "readTime": "4분 분량",
         "tags": [
             "Web",
             "물리학",
