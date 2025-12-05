@@ -63,5 +63,44 @@
             "Deep Learning"
         ],
         "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 6,
+        "title": "Google NotebookLM: AI 노트 필기의 미래",
+        "excerpt": "Google의 NotebookLM이 Gemini Pro를 사용하여 문서를 지능형 연구 보조 도구로 변환하는 방법을 알아보세요.",
+        "date": "2024-12-05",
+        "readTime": "6분 읽기",
+        "tags": [
+            "AI",
+            "Google",
+            "생산성"
+        ],
+        "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 7,
+        "title": "Google Nano Banana: 달콤한 AI 서프라이즈",
+        "excerpt": "Google의 최신 실험적 AI 프로젝트인 'Nano Banana'의 재미와 잠재력을 탐구합니다. 모바일 AI에 어떤 의미가 있을까요?",
+        "date": "2024-12-06",
+        "readTime": "5분 읽기",
+        "tags": [
+            "AI",
+            "실험",
+            "모바일"
+        ],
+        "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 8,
+        "title": "Google Anti Gravity: 코드로 물리학에 도전하다",
+        "excerpt": "고전적인 Google Anti Gravity 이스터 에그와 최신 웹 물리 엔진의 진화를 되돌아봅니다.",
+        "date": "2024-12-07",
+        "readTime": "4분 읽기",
+        "tags": [
+            "Web",
+            "물리학",
+            "재미"
+        ],
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop"
     }
 ]

@@ -63,5 +63,44 @@
             "Deep Learning"
         ],
         "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 6,
+        "title": "Google NotebookLM: The Future of AI Note-Taking",
+        "excerpt": "Discover how Google's NotebookLM uses Gemini Pro to transform your documents into an intelligent research assistant.",
+        "date": "2024-12-05",
+        "readTime": "6 min read",
+        "tags": [
+            "AI",
+            "Google",
+            "Productivity"
+        ],
+        "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 7,
+        "title": "Google Nano Banana: A Sweet AI Surprise",
+        "excerpt": "Exploring the fun and potential of Google's latest experimental AI project, 'Nano Banana'. What does it mean for mobile AI?",
+        "date": "2024-12-06",
+        "readTime": "5 min read",
+        "tags": [
+            "AI",
+            "Experiment",
+            "Mobile"
+        ],
+        "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 8,
+        "title": "Google Anti Gravity: Defying Physics with Code",
+        "excerpt": "A look back at the classic Google Anti Gravity easter egg and how modern web physics engines have evolved.",
+        "date": "2024-12-07",
+        "readTime": "4 min read",
+        "tags": [
+            "Web",
+            "Physics",
+            "Fun"
+        ],
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop"
     }
 ]

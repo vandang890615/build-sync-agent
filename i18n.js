@@ -59,11 +59,11 @@ const baseEn = {
         "pageTitle": "Get In Touch",
         "pageDesc": "Have a project in mind? Let's talk!",
         "infoTitle": "Contact Information",
-        "email": "Email",
-        "linkedin": "LinkedIn",
-        "github": "GitHub",
-        "tiktok": "TikTok",
-        "facebook": "Facebook",
+        "email": "Official Email",
+        "linkedin": "Professional Network",
+        "github": "Code Portfolio",
+        "tiktok": "Creative Content",
+        "facebook": "Social Connect",
         "form": {
             "name": "Name",
             "email": "Email",
@@ -138,6 +138,7 @@ const resources = {
         blog: { pageTitle: "Blog", pageDesc: "Suy nghĩ về phát triển web, công nghệ và hơn thế nữa" },
         contact: {
             pageTitle: "Liên hệ", pageDesc: "Bạn có ý tưởng dự án? Hãy cùng thảo luận!", infoTitle: "Thông tin liên hệ",
+            email: "Email chính thức", linkedin: "Mạng lưới chuyên nghiệp", github: "Hồ sơ năng lực", tiktok: "Sáng tạo nội dung", facebook: "Kết nối xã hội",
             form: { name: "Tên", email: "Email", message: "Tin nhắn", send: "Gửi tin nhắn", sending: "Đang gửi...", success: "✓ Tin nhắn đã được gửi thành công!" }
         },
         skills: { title: "Kỹ năng & Công nghệ", aiml: { title: "AI/ML", desc: "LLMs, LangChain, TensorFlow, PyTorch" }, automation: { title: "Tự động hóa", desc: "Playwright, Selenium, Agent Frameworks" }, frontend: { title: "Frontend", desc: "React, Next.js, TypeScript, Tailwind" }, backend: { title: "Backend", desc: "Node.js, Python, PostgreSQL, MongoDB" } },
@@ -160,6 +161,7 @@ const resources = {
         blog: { pageTitle: "博客", pageDesc: "关于 Web 开发、技术等的思考" },
         contact: {
             pageTitle: "取得联系", pageDesc: "有项目想法吗？让我们谈谈！", infoTitle: "联系信息",
+            email: "官方邮箱", linkedin: "职业网络", github: "代码作品集", tiktok: "创意内容", facebook: "社交连接",
             form: { name: "姓名", email: "电子邮件", message: "留言", send: "发送留言", sending: "发送中...", success: "✓ 留言发送成功！" }
         },
         skills: { title: "技能与技术", aiml: { title: "AI/ML", desc: "LLMs, LangChain, TensorFlow, PyTorch" }, automation: { title: "自动化", desc: "Playwright, Selenium, Agent Frameworks" }, frontend: { title: "前端", desc: "React, Next.js, TypeScript, Tailwind" }, backend: { title: "后端", desc: "Node.js, Python, PostgreSQL, MongoDB" } },
@@ -182,6 +184,7 @@ const resources = {
         blog: { pageTitle: "ブログ", pageDesc: "Web開発、技術などに関する考察" },
         contact: {
             pageTitle: "お問い合わせ", pageDesc: "プロジェクトのアイデアはありますか？話しましょう！", infoTitle: "連絡先情報",
+            email: "公式メール", linkedin: "プロフェッショナルネットワーク", github: "コードポートフォリオ", tiktok: "クリエイティブコンテンツ", facebook: "ソーシャルコネクト",
             form: { name: "名前", email: "メール", message: "メッセージ", send: "メッセージを送信", sending: "送信中...", success: "✓ メッセージは正常に送信されました！" }
         },
         skills: { title: "スキルとテクノロジー", aiml: { title: "AI/ML", desc: "LLMs, LangChain, TensorFlow, PyTorch" }, automation: { title: "自動化", desc: "Playwright, Selenium, Agent Frameworks" }, frontend: { title: "フロントエンド", desc: "React, Next.js, TypeScript, Tailwind" }, backend: { title: "バックエンド", desc: "Node.js, Python, PostgreSQL, MongoDB" } },
@@ -204,6 +207,7 @@ const resources = {
         blog: { pageTitle: "블로그", pageDesc: "웹 개발, 기술 등에 대한 생각" },
         contact: {
             pageTitle: "연락하기", pageDesc: "프로젝트 아이디어가 있으신가요? 이야기해 봅시다!", infoTitle: "연락처 정보",
+            email: "공식 이메일", linkedin: "전문 네트워크", github: "코드 포트폴리오", tiktok: "크리에이티브 콘텐츠", facebook: "소셜 연결",
             form: { name: "이름", email: "이메일", message: "메시지", send: "메시지 보내기", sending: "전송 중...", success: "✓ 메시지가 성공적으로 전송되었습니다!" }
         },
         skills: { title: "기술 및 기술", aiml: { title: "AI/ML", desc: "LLMs, LangChain, TensorFlow, PyTorch" }, automation: { title: "자동화", desc: "Playwright, Selenium, Agent Frameworks" }, frontend: { title: "프론트엔드", desc: "React, Next.js, TypeScript, Tailwind" }, backend: { title: "백엔드", desc: "Node.js, Python, PostgreSQL, MongoDB" } },
@@ -226,6 +230,7 @@ const resources = {
         blog: { pageTitle: "Blog", pageDesc: "Réflexions sur le développement web, la technologie et plus encore" },
         contact: {
             pageTitle: "Entrer en contact", pageDesc: "Vous avez un projet en tête ? Parlons-en !", infoTitle: "Informations de contact",
+            email: "Email Professionnel", linkedin: "Réseau Professionnel", github: "Portfolio de Code", tiktok: "Contenu Créatif", facebook: "Connexion Sociale",
             form: { name: "Nom", email: "Email", message: "Message", send: "Envoyer le message", sending: "Envoi...", success: "✓ Message envoyé avec succès !" }
         },
         skills: { title: "Compétences & Technologies", aiml: { title: "IA/ML", desc: "LLMs, LangChain, TensorFlow, PyTorch" }, automation: { title: "Automatisation", desc: "Playwright, Selenium, Agent Frameworks" }, frontend: { title: "Frontend", desc: "React, Next.js, TypeScript, Tailwind" }, backend: { title: "Backend", desc: "Node.js, Python, PostgreSQL, MongoDB" } },
@@ -248,6 +253,7 @@ const resources = {
         blog: { pageTitle: "Blog", pageDesc: "Gedanken zu Webentwicklung, Technik und mehr" },
         contact: {
             pageTitle: "Kontakt aufnehmen", pageDesc: "Haben Sie eine Projektidee? Lassen Sie uns reden!", infoTitle: "Kontaktinformationen",
+            email: "Offizielle E-Mail", linkedin: "Professionelles Netzwerk", github: "Code-Portfolio", tiktok: "Kreative Inhalte", facebook: "Soziale Verbindung",
             form: { name: "Name", email: "E-Mail", message: "Nachricht", send: "Nachricht senden", sending: "Senden...", success: "✓ Nachricht erfolgreich gesendet!" }
         },
         skills: { title: "Fähigkeiten & Technologien", aiml: { title: "KI/ML", desc: "LLMs, LangChain, TensorFlow, PyTorch" }, automation: { title: "Automatisierung", desc: "Playwright, Selenium, Agent Frameworks" }, frontend: { title: "Frontend", desc: "React, Next.js, TypeScript, Tailwind" }, backend: { title: "Backend", desc: "Node.js, Python, PostgreSQL, MongoDB" } },
@@ -270,6 +276,7 @@ const resources = {
         blog: { pageTitle: "Blog", pageDesc: "Riflessioni su sviluppo web, tecnologia e altro" },
         contact: {
             pageTitle: "Mettiti in contatto", pageDesc: "Hai in mente un progetto? Parliamone!", infoTitle: "Informazioni di contatto",
+            email: "Email Ufficiale", linkedin: "Rete Professionale", github: "Portfolio Codice", tiktok: "Contenuti Creativi", facebook: "Connessione Sociale",
             form: { name: "Nome", email: "Email", message: "Messaggio", send: "Invia Messaggio", sending: "Invio...", success: "✓ Messaggio inviato con successo!" }
         },
         skills: { title: "Competenze & Tecnologie", aiml: { title: "IA/ML", desc: "LLMs, LangChain, TensorFlow, PyTorch" }, automation: { title: "Automazione", desc: "Playwright, Selenium, Agent Frameworks" }, frontend: { title: "Frontend", desc: "React, Next.js, TypeScript, Tailwind" }, backend: { title: "Backend", desc: "Node.js, Python, PostgreSQL, MongoDB" } },
