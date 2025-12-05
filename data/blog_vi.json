@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "title": "Bắt đầu với JavaScript Hiện đại",
+        "excerpt": "Học các kiến thức cơ bản về ES6+ bao gồm arrow functions, destructuring và async/await.",
+        "date": "15-11-2024",
+        "readTime": "5 phút đọc",
+        "tags": [
+            "JavaScript",
+            "Hướng dẫn",
+            "Cơ bản"
+        ],
+        "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 2,
+        "title": "Xây dựng Ứng dụng React Mở rộng",
+        "excerpt": "Các phương pháp hay nhất để cấu trúc ứng dụng React lớn với quản lý trạng thái và kiến trúc component phù hợp.",
+        "date": "01-11-2024",
+        "readTime": "8 phút đọc",
+        "tags": [
+            "React",
+            "Kiến trúc",
+            "Nâng cao"
+        ],
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 3,
+        "title": "Giới thiệu về TypeScript",
+        "excerpt": "Tại sao TypeScript trở nên cần thiết cho phát triển web hiện đại và cách bắt đầu.",
+        "date": "20-10-2024",
+        "readTime": "6 phút đọc",
+        "tags": [
+            "TypeScript",
+            "Hướng dẫn",
+            "Trung cấp"
+        ],
+        "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 4,
+        "title": "Sự trỗi dậy của Agentic AI",
+        "excerpt": "Cách các tác nhân tự động đang chuyển đổi phát triển phần mềm và tự động hóa.",
+        "date": "01-12-2024",
+        "readTime": "7 phút đọc",
+        "tags": [
+            "AI",
+            "Agents",
+            "Tương lai"
+        ],
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 5,
+        "title": "Hiểu về Mô hình Ngôn ngữ Lớn (LLMs)",
+        "excerpt": "Tìm hiểu sâu về cách LLMs hoạt động và ứng dụng của chúng trong công nghệ hiện đại.",
+        "date": "25-11-2024",
+        "readTime": "10 phút đọc",
+        "tags": [
+            "AI",
+            "LLM",
+            "Deep Learning"
+        ],
+        "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop"
+    }
+]

@@ -1,12 +1,15 @@
 // Load and display featured projects
-async function loadFeaturedProjects() {
-    try {
-        const response = await fetch('data/projects.json');
-        const projects = await response.json();
-        const featured = projects.filter(p => p.featured);
+async function loadFeaturedProjects(lang = localStorage.getItem('language') || 'vi') {
+  try {
+    const response = await fetch(`data/projects_${lang}.json`);
+    if (!response.ok) throw new Error(`Failed to load projects data for ${lang}`);
+    const projects = await response.json();
+    const featured = projects.filter(p => p.featured);
 
-        const container = document.getElementById('featuredProjects');
-        container.innerHTML = featured.map(project => `
+    const container = document.getElementById('featuredProjects');
+    if (!container) return;
+
+    container.innerHTML = featured.map(project => `
       <div class="project-card fade-in">
         <img src="${project.image}" alt="${project.title}" class="project-image">
         <div class="project-content">
@@ -22,9 +25,15 @@ async function loadFeaturedProjects() {
         </div>
       </div>
     `).join('');
-    } catch (error) {
-        console.error('Error loading projects:', error);
-    }
+  } catch (error) {
+    console.error('Error loading projects:', error);
+  }
 }
 
+// Initial load
 loadFeaturedProjects();
+
+// Listen for language changes
+document.addEventListener('languageChanged', (e) => {
+  loadFeaturedProjects(e.detail.language);
+});

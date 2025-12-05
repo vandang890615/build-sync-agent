@@ -55,6 +55,7 @@ async function changeLanguage(lang) {
     await loadTranslations(lang);
     updatePageContent();
     updateLanguageButton();
+    document.dispatchEvent(new CustomEvent('languageChanged', { detail: { language: lang } }));
 }
 
 // Update language button

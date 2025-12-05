@@ -46,7 +46,9 @@
             "name": "Tên",
             "email": "Email",
             "message": "Tin nhắn",
-            "send": "Gửi tin nhắn"
+            "send": "Gửi tin nhắn",
+            "sending": "Đang gửi...",
+            "success": "✓ Tin nhắn đã được gửi thành công!"
         }
     },
     "skills": {

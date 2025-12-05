@@ -1,9 +1,14 @@
-async function loadProjects() {
-    const response = await fetch('data/projects.json');
+async function loadProjects(lang = localStorage.getItem('language') || 'vi') {
+  try {
+    const response = await fetch(`data/projects_${lang}.json`);
+    if (!response.ok) throw new Error(`Failed to load projects data for ${lang}`);
     const projects = await response.json();
 
-    document.getElementById('projectsGrid').innerHTML = projects.map(p => `
-    <div class="card">
+    const container = document.getElementById('projectsGrid');
+    if (!container) return;
+
+    container.innerHTML = projects.map(p => `
+    <div class="card fade-in">
       <img src="${p.image}" alt="${p.title}" style="width:100%;height:200px;object-fit:cover;border-radius:1rem 1rem 0 0;">
       <div style="padding:1.5rem;">
         <h3>${p.title}</h3>
@@ -18,5 +23,15 @@ async function loadProjects() {
       </div>
     </div>
   `).join('');
+  } catch (error) {
+    console.error('Error loading projects:', error);
+  }
 }
+
+// Initial load
 loadProjects();
+
+// Listen for language changes
+document.addEventListener('languageChanged', (e) => {
+  loadProjects(e.detail.language);
+});

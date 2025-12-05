@@ -37,5 +37,31 @@
             "Intermediate"
         ],
         "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 4,
+        "title": "The Rise of Agentic AI",
+        "excerpt": "How autonomous agents are transforming software development and automation.",
+        "date": "2024-12-01",
+        "readTime": "7 min read",
+        "tags": [
+            "AI",
+            "Agents",
+            "Future"
+        ],
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
+    },
+    {
+        "id": 5,
+        "title": "Understanding Large Language Models",
+        "excerpt": "A deep dive into how LLMs work and their applications in modern tech.",
+        "date": "2024-11-25",
+        "readTime": "10 min read",
+        "tags": [
+            "AI",
+            "LLM",
+            "Deep Learning"
+        ],
+        "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop"
     }
 ]
