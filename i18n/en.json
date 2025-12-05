@@ -40,7 +40,8 @@
     },
     "construction": {
         "pageTitle": "Construction & Interior",
-        "pageDesc": "Professional design and construction services"
+        "pageDesc": "Professional design and construction services",
+        "featuredArticles": "Featured Articles"
     },
     "blog": {
         "pageTitle": "Blog",
