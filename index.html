@@ -3,180 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <a href="index.html" class="logo">
-        <img src="logo.svg" alt="Logo" class="logo-img">
-    </a>
-    <button class="nav-toggle">☰</button>
-    <nav class="nav">
-        <a href="index.html" data-i18n="nav.home">Trang chủ</a>
-        <a href="about.html" data-i18n="nav.about">Giới thiệu</a>
-        <a href="projects.html" data-i18n="nav.projects">Dự án</a>
-        <a href="blog.html" data-i18n="nav.blog">Blog</a>
-        <a href="contact.html" data-i18n="nav.contact">Liên hệ</a>
-    </nav>
-    <div class="lang-switcher">
-        <button class="lang-btn" id="langBtn" onclick="toggleLanguageMenu()">🇻🇳 Tiếng Việt</button>
-    </div>
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-        <span class="theme-icon">🌙</span>
-    </button>
-    </div>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content fade-in">
-                    <h1 class="hero-title">
-                        <span data-i18n="hero.greeting">Xin chào, tôi là</span> <span class="gradient-text">Van
-                            Dang</span>
-                    </h1>
-                    <p class="hero-subtitle" data-i18n="hero.title">Kỹ sư AI & Nhà phát triển Full-Stack</p>
-                    <p class="hero-description" data-i18n="hero.description">
-                        Xây dựng các hệ thống thông minh với AI/ML và công nghệ web hiện đại. Chuyên về LLMs, automation
-                        agents và ứng dụng có khả năng mở rộng.
-                    </p>
-                    <div class="hero-cta">
-                        <a href="projects.html" class="btn btn-primary" data-i18n="hero.cta_work">Xem dự án</a>
-                        <a href="contact.html" class="btn btn-outline" data-i18n="hero.cta_contact">Liên hệ</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Featured Projects -->
-        <section class="featured-projects">
-            <div class="container">
-                <h2 class="section-title" data-i18n="projects.title">Dự án của tôi</h2>
-                <div class="projects-grid" id="featuredProjects"></div>
-                <div class="section-cta">
-                    <a href="projects.html" class="btn btn-outline" data-i18n="projects.viewAll">Xem tất cả dự án →</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills -->
-        <section class="skills">
-            <div class="container">
-                <h2 class="section-title" data-i18n="skills.title">Kỹ năng & Công nghệ</h2>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <div class="skill-icon">🤖</div>
-                        <h3 data-i18n="skills.aiml.title">AI/ML</h3>
-                        <p data-i18n="skills.aiml.desc">LLMs, LangChain, TensorFlow, PyTorch</p>
-                    </div>
-                    <div class="skill-card">
-                        <div class="skill-icon">⚡</div>
-                        <h3 data-i18n="skills.automation.title">Automation</h3>
-                        <p data-i18n="skills.automation.desc">Playwright, Selenium, Agent Frameworks</p>
-                    </div>
-                    <div class="skill-card">
-                        <div class="skill-icon">⚛️</div>
-                        <h3 data-i18n="skills.frontend.title">Frontend</h3>
-                        <p data-i18n="skills.frontend.desc">React, Next.js, TypeScript, Tailwind</p>
-                    </div>
-                    <div class="skill-card">
-                        <div class="skill-icon">🔧</div>
-                        <h3 data-i18n="skills.backend.title">Backend</h3>
-                        <p data-i18n="skills.backend.desc">Node.js, Python, PostgreSQL, MongoDB</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- AI & Tech News Section -->
-        <section class="ai-news">
-            <div class="container">
-                <h2 class="section-title" data-i18n="aiNews.title">AI & Tech News</h2>
-                <ul class="news-list">
-                    <li data-i18n="aiNews.items.0.title">Latest breakthroughs in Large Language Models</li>
-                    <li data-i18n="aiNews.items.1.title">Automation trends 2025</li>
-                    <li data-i18n="aiNews.items.2.title">Web development with AI assistants</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Van Dang</h3>
-                    <p data-i18n="footer.description">Kỹ sư AI đam mê xây dựng trải nghiệm web tuyệt vời.</p>
-                </div>
-                <!DOCTYPE html>
-                <html lang="vi" data-theme="dark">
-
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Van Dang - Kỹ sư AI & Nhà phát triển Full-Stack</title>
-                    <meta name="description"
-                        content="Portfolio của Van Dang - Kỹ sư AI chuyên về phát triển web, AI/ML và Automation">
-                    <link rel="stylesheet" href="styles.css">
-                    <link rel="stylesheet" href="home.css">
-                    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-                        rel="stylesheet">
-                    <style>
-                        .lang-switcher {
-                            position: relative;
-                        }
-
-                        .lang-btn {
-                            background: var(--bg-card);
-                            border: 1px solid var(--border);
-                            padding: 0.5rem 1rem;
-                            border-radius: 0.5rem;
-                            cursor: pointer;
-                            font-size: 0.9rem;
-                            transition: all 0.2s;
-                        }
-
-                        .lang-btn:hover {
-                            border-color: var(--accent);
-                        }
-
-                        .lang-dropdown {
-                            position: absolute;
-                            top: 100%;
-                            right: 0;
-                            margin-top: 0.5rem;
-                            background: var(--bg-card);
-                            border: 1px solid var(--border);
-                            border-radius: 0.5rem;
-                            box-shadow: 0 4px 12px var(--shadow);
-                            min-width: 180px;
-                            z-index: 1000;
-                        }
-
-                        .lang-option {
-                            display: block;
-                            width: 100%;
-                            padding: 0.75rem 1rem;
-                            background: none;
-                            border: none;
-                            text-align: left;
-                            cursor: pointer;
-                            color: var(--text-primary);
-                            transition: background 0.2s;
-                        }
-
-                        .lang-option:hover {
-                            background: var(--bg-secondary);
-                        }
-
-                        .lang-option.active {
-                            background: var(--accent);
-                            color: white;
-                        }
-
-                        .logo-img {
-                            height: 40px;
-                            width: auto;
-                        }
-                    </style>
-                </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Van Dang - Kỹ sư AI & Nhà phát triển Full-Stack</title>
+    <meta name="description"
+        content="Portfolio của Van Dang - Kỹ sư AI chuyên về phát triển web, AI/ML và Automation">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
 
 <body>
     <header class="header">
@@ -298,6 +133,15 @@
                         <li><a href="projects.html" data-i18n="nav.projects">Dự án</a></li>
                         <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
                         <li><a href="contact.html" data-i18n="nav.contact">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer.connect">Kết nối</h3>
+                    <ul>
+                        <li><a href="https://github.com/vandang890615" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/%C4%91%E1%BA%B7ng-nguy%E1%BB%85n-41674b241/"
+                                target="_blank">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/vandang890615" target="_blank">Twitter</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,37 +1,115 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="vi" data-theme="dark">
 
 <head>
-    <button class="nav-toggle">☰</button>
-    <nav class="nav">
-        <a href="index.html" data-i18n="nav.home">Home</a>
-        <a href="about.html" data-i18n="nav.about">About</a>
-        <a href="projects.html" data-i18n="nav.projects">Projects</a>
-        <a href="blog.html" data-i18n="nav.blog">Blog</a>
-        <a href="contact.html" data-i18n="nav.contact">Contact</a>
-    </nav>
-    <div class="lang-switcher">
-        <button class="lang-btn" id="langBtn" onclick="toggleLanguageMenu()">🇻🇳 Tiếng Việt</button>
-    </div>
-    <button class="theme-toggle" id="themeToggle"><span class="theme-icon">🌙</span></button>
-    </div>
-    <li><a href="https://github.com/vandang890615" target="_blank">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/%C4%91%E1%BA%B7ng-nguy%E1%BB%85n-41674b241/" target="_blank">LinkedIn</a>
-    </li>
-    <li><a href="https://twitter.com/vandang890615" target="_blank">Twitter</a></li>
-    </ul>
-    </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2024 Van Dang. <span data-i18n="footer.copyright">Built with ❤️</span></p>
-    </div>
-    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Van Dang - Dự án</title>
+    <meta name="description" content="Các dự án nổi bật của Van Dang">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-header {
+            padding: 4rem 0 2rem;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="logo.svg" alt="Logo" class="logo-img">
+            </a>
+            <button class="nav-toggle">☰</button>
+            <nav class="nav">
+                <a href="index.html" data-i18n="nav.home">Trang chủ</a>
+                <a href="about.html" data-i18n="nav.about">Giới thiệu</a>
+                <a href="projects.html" data-i18n="nav.projects">Dự án</a>
+                <a href="blog.html" data-i18n="nav.blog">Blog</a>
+                <a href="contact.html" data-i18n="nav.contact">Liên hệ</a>
+            </nav>
+            <div class="lang-switcher">
+                <button class="lang-btn" id="langBtn" onclick="toggleLanguageMenu()">🇻🇳 Tiếng Việt</button>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="projects.pageTitle">My Projects</h1>
+                <p data-i18n="projects.pageDesc">A collection of my work and side projects</p>
+            </div>
+        </section>
+        <section class="projects-section">
+            <div class="container">
+                <div class="projects-grid" id="projectsGrid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Van Dang</h3>
+                    <p data-i18n="footer.description">Kỹ sư AI đam mê xây dựng trải nghiệm web tuyệt vời.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer.quickLinks">Liên kết nhanh</h3>
+                    <ul>
+                        <li><a href="about.html" data-i18n="nav.about">Giới thiệu</a></li>
+                        <li><a href="projects.html" data-i18n="nav.projects">Dự án</a></li>
+                        <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer.connect">Kết nối</h3>
+                    <ul>
+                        <li><a href="https://github.com/vandang890615" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/%C4%91%E1%BA%B7ng-nguy%E1%BB%85n-41674b241/"
+                                target="_blank">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/vandang890615" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Van Dang. <span data-i18n="footer.copyright">Được xây dựng với ❤️</span></p>
+            </div>
+        </div>
     </footer>
 
     <script src="i18n.js"></script>
     <script src="main.js"></script>
     <script src="projects.js"></script>
     <script src="particles.js"></script>
-    </body>
+</body>
 
 </html>
