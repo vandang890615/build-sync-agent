@@ -43,6 +43,11 @@
         "connect": "接続",
         "copyright": "❤️で構築"
     },
+    "construction": {
+        "pageTitle": "機械・建設",
+        "pageDesc": "プロの設計・施工サービス",
+        "featuredArticles": "注目の記事"
+    },
     "aiNews": {
         "title": "AI とテクノロジーニュース",
         "items": [

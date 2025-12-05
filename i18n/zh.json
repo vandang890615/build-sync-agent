@@ -43,6 +43,11 @@
         "connect": "联系",
         "copyright": "用❤️构建"
     },
+    "construction": {
+        "pageTitle": "机械与建筑",
+        "pageDesc": "专业设计与施工服务",
+        "featuredArticles": "精选文章"
+    },
     "aiNews": {
         "title": "AI 与技术新闻",
         "items": [

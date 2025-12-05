@@ -43,6 +43,11 @@
         "connect": "Connetti",
         "copyright": "Costruito con ❤️"
     },
+    "construction": {
+        "pageTitle": "Meccanica e Costruzione",
+        "pageDesc": "Servizi professionali di progettazione e costruzione",
+        "featuredArticles": "Articoli in evidenza"
+    },
     "aiNews": {
         "title": "Notizie AI & Tech",
         "items": [

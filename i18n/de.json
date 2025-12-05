@@ -43,6 +43,11 @@
         "connect": "Verbinden",
         "copyright": "Mit ❤️ gebaut"
     },
+    "construction": {
+        "pageTitle": "Maschinenbau & Bau",
+        "pageDesc": "Professionelle Design- und Baudienstleistungen",
+        "featuredArticles": "Ausgewählte Artikel"
+    },
     "aiNews": {
         "title": "KI & Tech Neuigkeiten",
         "items": [

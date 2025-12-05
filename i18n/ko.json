@@ -43,6 +43,11 @@
         "connect": "연결",
         "copyright": "❤️와 함께 구축"
     },
+    "construction": {
+        "pageTitle": "기계 및 건설",
+        "pageDesc": "전문 설계 및 시공 서비스",
+        "featuredArticles": "추천 기사"
+    },
     "aiNews": {
         "title": "AI 및 기술 뉴스",
         "items": [
