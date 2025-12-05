@@ -1,29 +1,232 @@
 // i18n.js - Multi-language support system
 let currentLang = localStorage.getItem('language') || 'vi';
-let translations = {};
 
 const languages = {
     vi: { name: 'Tiếng Việt', flag: '🇻🇳' },
-    en: { name: 'English', flag: '🇬🇧' },
-    zh: { name: '中文', flag: '🇨🇳' },
-    ja: { name: '日本語', flag: '🇯🇵' },
-    ko: { name: '한국어', flag: '🇰🇷' },
-    fr: { name: 'Français', flag: '🇫🇷' },
-    de: { name: 'Deutsch', flag: '🇩🇪' },
-    it: { name: 'Italiano', flag: '🇮🇹' }
+    en: { name: 'English', flag: '🇬🇧' }
 };
 
-// Load translation file
-async function loadTranslations(lang) {
-    try {
-        const response = await fetch(`i18n/${lang}.json`);
-        translations = await response.json();
-        return true;
-    } catch (error) {
-        console.error(`Failed to load ${lang} translations:`, error);
-        return false;
+const resources = {
+    en: {
+        "title": "Van Dang - Software Engineer",
+        "hero": {
+            "greeting": "Hello, I am",
+            "title": "AI Engineer & Full-Stack Developer",
+            "description": "Building intelligent systems with AI/ML and modern web technologies. Specialized in LLMs, automation agents, and scalable applications.",
+            "cta_work": "View Projects",
+            "cta_contact": "Contact"
+        },
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "projects": "Projects",
+            "food": "Culinary",
+            "construction": "Construction",
+            "blog": "Blog",
+            "contact": "Contact"
+        },
+        "about": {
+            "title": "About Me",
+            "bio": "Passionate software engineer with 8+ years of experience building scalable web applications. Specialized in modern JavaScript frameworks, cloud architecture, and developer tooling. Love solving complex problems and mentoring junior developers."
+        },
+        "profile": {
+            "name": "Van Dang",
+            "title": "Senior Software Engineer",
+            "location": "🌍 Ho Chi Minh City, VN"
+        },
+        "connect": {
+            "title": "Connect"
+        },
+        "projects": {
+            "title": "My Projects",
+            "viewAll": "View All Projects →",
+            "pageTitle": "My Projects",
+            "pageDesc": "A collection of my work and side projects"
+        },
+        "food": {
+            "pageTitle": "Culinary Delights",
+            "pageDesc": "Delicious food and beverages available on Shopee Food"
+        },
+        "construction": {
+            "pageTitle": "Construction & Interior",
+            "pageDesc": "Professional design and construction services"
+        },
+        "blog": {
+            "pageTitle": "Blog",
+            "pageDesc": "Thoughts on web development, tech, and more"
+        },
+        "contact": {
+            "pageTitle": "Get In Touch",
+            "pageDesc": "Have a project in mind? Let's talk!",
+            "infoTitle": "Contact Information",
+            "email": "Email",
+            "linkedin": "LinkedIn",
+            "github": "GitHub",
+            "tiktok": "TikTok",
+            "facebook": "Facebook",
+            "form": {
+                "name": "Name",
+                "email": "Email",
+                "message": "Message",
+                "send": "Send Message",
+                "sending": "Sending...",
+                "success": "✓ Message sent successfully!"
+            }
+        },
+        "skills": {
+            "title": "Skills & Technologies",
+            "aiml": {
+                "title": "AI/ML",
+                "desc": "LLMs, LangChain, TensorFlow, PyTorch"
+            },
+            "automation": {
+                "title": "Automation",
+                "desc": "Playwright, Selenium, Agent Frameworks"
+            },
+            "frontend": {
+                "title": "Frontend",
+                "desc": "React, Next.js, TypeScript, Tailwind"
+            },
+            "backend": {
+                "title": "Backend",
+                "desc": "Node.js, Python, PostgreSQL, MongoDB"
+            }
+        },
+        "footer": {
+            "description": "AI Engineer passionate about building great web experiences.",
+            "quickLinks": "Quick Links",
+            "connect": "Connect",
+            "copyright": "Built with ❤️"
+        },
+        "aiNews": {
+            "title": "AI & Tech News",
+            "items": [
+                {
+                    "title": "Latest breakthroughs in Large Language Models",
+                    "link": "#"
+                },
+                {
+                    "title": "Automation trends 2025",
+                    "link": "#"
+                },
+                {
+                    "title": "Web development with AI assistants",
+                    "link": "#"
+                }
+            ]
+        }
+    },
+    vi: {
+        "nav": {
+            "home": "Trang chủ",
+            "about": "Giới thiệu",
+            "projects": "Dự án",
+            "food": "Ẩm thực",
+            "construction": "Cơ khí & Xây dựng",
+            "blog": "Blog",
+            "contact": "Liên hệ"
+        },
+        "hero": {
+            "greeting": "Xin chào, tôi là",
+            "title": "Kỹ sư AI & Nhà phát triển Full-Stack",
+            "description": "Xây dựng các hệ thống thông minh với AI/ML và công nghệ web hiện đại. Chuyên về LLMs, automation agents và ứng dụng có khả năng mở rộng.",
+            "cta_work": "Xem dự án",
+            "cta_contact": "Liên hệ"
+        },
+        "about": {
+            "title": "Về tôi",
+            "bio": "Kỹ sư phần mềm đam mê xây dựng các ứng dụng web có khả năng mở rộng. Chuyên về các framework JavaScript hiện đại, kiến trúc đám mây và công cụ phát triển. Yêu thích giải quyết các vấn đề phức tạp và hướng dẫn các nhà phát triển trẻ."
+        },
+        "profile": {
+            "name": "Van Dang",
+            "title": "Kỹ sư phần mềm cấp cao",
+            "location": "🌍 Ho Chi Minh City, VN"
+        },
+        "connect": {
+            "title": "Kết nối"
+        },
+        "projects": {
+            "title": "Dự án của tôi",
+            "viewAll": "Xem tất cả dự án",
+            "pageTitle": "Dự án của tôi",
+            "pageDesc": "Bộ sưu tập các công việc và dự án cá nhân của tôi"
+        },
+        "food": {
+            "pageTitle": "Ẩm thực",
+            "pageDesc": "Món ngon và đồ uống có sẵn trên Shopee Food"
+        },
+        "construction": {
+            "pageTitle": "Cơ khí & Xây dựng Nội thất",
+            "pageDesc": "Dịch vụ thiết kế và thi công chuyên nghiệp"
+        },
+        "blog": {
+            "pageTitle": "Blog",
+            "pageDesc": "Suy nghĩ về phát triển web, công nghệ và nhiều hơn nữa"
+        },
+        "contact": {
+            "pageTitle": "Liên hệ",
+            "pageDesc": "Bạn có ý tưởng dự án? Hãy cùng thảo luận!",
+            "infoTitle": "Thông tin liên hệ",
+            "email": "Email",
+            "linkedin": "LinkedIn",
+            "github": "GitHub",
+            "tiktok": "TikTok",
+            "facebook": "Facebook",
+            "form": {
+                "name": "Tên",
+                "email": "Email",
+                "message": "Tin nhắn",
+                "send": "Gửi tin nhắn",
+                "sending": "Đang gửi...",
+                "success": "✓ Tin nhắn đã được gửi thành công!"
+            }
+        },
+        "skills": {
+            "title": "Kỹ năng & Công nghệ",
+            "aiml": {
+                "title": "AI/ML",
+                "desc": "LLMs, LangChain, TensorFlow, PyTorch"
+            },
+            "automation": {
+                "title": "Automation",
+                "desc": "Playwright, Selenium, Agent Frameworks"
+            },
+            "frontend": {
+                "title": "Frontend",
+                "desc": "React, Next.js, TypeScript, Tailwind"
+            },
+            "backend": {
+                "title": "Backend",
+                "desc": "Node.js, Python, PostgreSQL, MongoDB"
+            }
+        },
+        "footer": {
+            "description": "Kỹ sư AI đam mê xây dựng trải nghiệm web tuyệt vời.",
+            "quickLinks": "Liên kết nhanh",
+            "connect": "Kết nối",
+            "copyright": "Được xây dựng với ❤️"
+        },
+        "aiNews": {
+            "title": "Tin tức AI & Công nghệ",
+            "items": [
+                {
+                    "title": "Những đột phá mới nhất về Mô hình Ngôn ngữ Lớn",
+                    "link": "#"
+                },
+                {
+                    "title": "Xu hướng tự động hóa 2025",
+                    "link": "#"
+                },
+                {
+                    "title": "Phát triển web với trợ lý AI",
+                    "link": "#"
+                }
+            ]
+        }
     }
-}
+};
+
+let translations = resources[currentLang];
 
 // Get translated text
 function t(key) {
@@ -49,10 +252,10 @@ function updatePageContent() {
 }
 
 // Change language
-async function changeLanguage(lang) {
+function changeLanguage(lang) {
     currentLang = lang;
     localStorage.setItem('language', lang);
-    await loadTranslations(lang);
+    translations = resources[lang];
     updatePageContent();
     updateLanguageButton();
     document.dispatchEvent(new CustomEvent('languageChanged', { detail: { language: lang } }));
@@ -91,8 +294,8 @@ function toggleLanguageMenu() {
 }
 
 // Initialize
-async function initI18n() {
-    await loadTranslations(currentLang);
+function initI18n() {
+    translations = resources[currentLang];
     updatePageContent();
     updateLanguageButton();
 }

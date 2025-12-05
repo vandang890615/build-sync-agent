@@ -53,20 +53,8 @@ function updateTooltip() {
     }
 }
 
-// Populate user data
-function populateUserData() {
-    usernameEl.textContent = userData.name;
-    document.getElementById('title').textContent = userData.title;
-    document.getElementById('bio').textContent = userData.bio;
-    document.getElementById('avatar').src = userData.avatar;
-}
-
-// Event listeners
-themeToggle.addEventListener('click', toggleTheme);
-
 // Initialize on page load
 initTheme();
-populateUserData();
 updateTooltip();
 
 // Expose function for testing
