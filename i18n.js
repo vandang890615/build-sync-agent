@@ -93,7 +93,9 @@ const baseEn = {
         "quickLinks": "Quick Links",
         "connect": "Connect",
         "copyright": "Built with ❤️",
-        "certifications": "Certifications"
+        "certifications": "Certifications",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
     },
     "aiNews": {
         "title": "AI & Tech News",
@@ -123,43 +125,49 @@ const resources = {
         profile: { name: "Van Dang", title: "Kỹ sư phần mềm cấp cao", location: "🌍 Ho Chi Minh City, VN" },
         food: { pageTitle: "Ẩm thực", pageDesc: "Món ngon và đồ uống có sẵn trên Shopee Food" },
         construction: { pageTitle: "Cơ khí & Xây dựng", pageDesc: "Dịch vụ thiết kế và thi công chuyên nghiệp" },
-        footer: { description: "Kỹ sư AI đam mê xây dựng trải nghiệm web tuyệt vời.", quickLinks: "Liên kết nhanh", connect: "Kết nối", copyright: "Được xây dựng với ❤️", certifications: "Chứng chỉ" }
+        footer: { description: "Kỹ sư AI đam mê xây dựng trải nghiệm web tuyệt vời.", quickLinks: "Liên kết nhanh", connect: "Kết nối", copyright: "Được xây dựng với ❤️", certifications: "Chứng chỉ", privacy: "Chính sách bảo mật", terms: "Điều khoản dịch vụ" }
     },
     zh: {
         ...baseEn,
         nav: { home: "首页", about: "关于", projects: "项目", food: "美食", construction: "建筑", blog: "博客", contact: "联系" },
         food: { pageTitle: "美食佳肴", pageDesc: "Shopee Food 上提供的美味食物和饮料" },
-        construction: { pageTitle: "建筑与室内设计", pageDesc: "专业的设计与施工服务" }
+        construction: { pageTitle: "建筑与室内设计", pageDesc: "专业的设计与施工服务" },
+        footer: { ...baseEn.footer, privacy: "隐私政策", terms: "服务条款" }
     },
     ja: {
         ...baseEn,
         nav: { home: "ホーム", about: "約", projects: "プロジェクト", food: "料理", construction: "建設", blog: "ブログ", contact: "接触" },
         food: { pageTitle: "料理の楽しみ", pageDesc: "Shopee Foodで利用可能な美味しい食べ物と飲み物" },
-        construction: { pageTitle: "建設とインテリア", pageDesc: "プロフェッショナルなデザインと建設サービス" }
+        construction: { pageTitle: "建設とインテリア", pageDesc: "プロフェッショナルなデザインと建設サービス" },
+        footer: { ...baseEn.footer, privacy: "プライバシーポリシー", terms: "利用規約" }
     },
     ko: {
         ...baseEn,
         nav: { home: "홈", about: "소개", projects: "프로젝트", food: "요리", construction: "건설", blog: "블로그", contact: "연락처" },
         food: { pageTitle: "요리의 즐거움", pageDesc: "Shopee Food에서 맛있는 음식과 음료를 즐기세요" },
-        construction: { pageTitle: "건설 및 인테리어", pageDesc: "전문 디자인 및 시공 서비스" }
+        construction: { pageTitle: "건설 및 인테리어", pageDesc: "전문 디자인 및 시공 서비스" },
+        footer: { ...baseEn.footer, privacy: "개인정보 처리방침", terms: "이용 약관" }
     },
     fr: {
         ...baseEn,
         nav: { home: "Accueil", about: "À propos", projects: "Projets", food: "Culinaire", construction: "Construction", blog: "Blog", contact: "Contact" },
         food: { pageTitle: "Délices Culinaires", pageDesc: "Nourriture et boissons délicieuses disponibles sur Shopee Food" },
-        construction: { pageTitle: "Construction & Intérieur", pageDesc: "Services professionnels de conception et de construction" }
+        construction: { pageTitle: "Construction & Intérieur", pageDesc: "Services professionnels de conception et de construction" },
+        footer: { ...baseEn.footer, privacy: "Politique de confidentialité", terms: "Conditions d'utilisation" }
     },
     de: {
         ...baseEn,
         nav: { home: "Startseite", about: "Über", projects: "Projekte", food: "Kulinarisch", construction: "Bau", blog: "Blog", contact: "Kontakt" },
         food: { pageTitle: "Kulinarische Köstlichkeiten", pageDesc: "Leckeres Essen und Getränke auf Shopee Food erhältlich" },
-        construction: { pageTitle: "Bau & Innenarchitektur", pageDesc: "Professionelle Design- und Baudienstleistungen" }
+        construction: { pageTitle: "Bau & Innenarchitektur", pageDesc: "Professionelle Design- und Baudienstleistungen" },
+        footer: { ...baseEn.footer, privacy: "Datenschutzrichtlinie", terms: "Nutzungsbedingungen" }
     },
     it: {
         ...baseEn,
         nav: { home: "Home", about: "Di", projects: "Progetti", food: "Culinario", construction: "Costruzione", blog: "Blog", contact: "Contatto" },
         food: { pageTitle: "Delizie Culinarie", pageDesc: "Cibo e bevande deliziosi disponibili su Shopee Food" },
-        construction: { pageTitle: "Costruzione & Interni", pageDesc: "Servizi professionali di progettazione e costruzione" }
+        construction: { pageTitle: "Costruzione & Interni", pageDesc: "Servizi professionali di progettazione e costruzione" },
+        footer: { ...baseEn.footer, privacy: "Informativa sulla privacy", terms: "Termini di servizio" }
     }
 };
 
