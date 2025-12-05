@@ -3,6 +3,8 @@
         "home": "Trang chủ",
         "about": "Giới thiệu",
         "projects": "Dự án",
+        "food": "Ẩm thực",
+        "construction": "Cơ khí & Xây dựng",
         "blog": "Blog",
         "contact": "Liên hệ"
     },
@@ -20,7 +22,7 @@
     "profile": {
         "name": "Van Dang",
         "title": "Kỹ sư phần mềm cấp cao",
-        "location": "🌍 Ho Chi Minh City, VN"
+        "location": "🌍 San Francisco, CA"
     },
     "connect": {
         "title": "Kết nối"
@@ -30,6 +32,14 @@
         "viewAll": "Xem tất cả dự án",
         "pageTitle": "Dự án của tôi",
         "pageDesc": "Bộ sưu tập các công việc và dự án cá nhân của tôi"
+    },
+    "food": {
+        "pageTitle": "Ẩm thực",
+        "pageDesc": "Món ngon và đồ uống có sẵn trên Shopee Food"
+    },
+    "construction": {
+        "pageTitle": "Cơ khí & Xây dựng Nội thất",
+        "pageDesc": "Dịch vụ thiết kế và thi công chuyên nghiệp"
     },
     "blog": {
         "pageTitle": "Blog",
@@ -42,6 +52,8 @@
         "email": "Email",
         "linkedin": "LinkedIn",
         "github": "GitHub",
+        "tiktok": "TikTok",
+        "facebook": "Facebook",
         "form": {
             "name": "Tên",
             "email": "Email",

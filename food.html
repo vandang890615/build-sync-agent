@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Van Dang - Blog</title>
-    <meta name="description" content="Blog của Van Dang về công nghệ và lập trình">
+    <title>Van Dang - Ẩm thực</title>
+    <meta name="description" content="Dịch vụ ẩm thực và đồ uống của Van Dang trên Shopee Food">
     <link rel="icon" href="logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -24,16 +24,64 @@
             background-clip: text;
         }
 
-        .page-header p {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-        }
-
-        .blog-grid {
+        .food-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             padding: 2rem 0;
+        }
+
+        .food-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .food-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px var(--shadow);
+        }
+
+        .food-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .food-content {
+            padding: 1.5rem;
+        }
+
+        .food-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .food-price {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .shopee-btn {
+            display: inline-block;
+            width: 100%;
+            padding: 0.75rem;
+            background: #ee4d2d;
+            color: white;
+            text-align: center;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .shopee-btn:hover {
+            background: #d73211;
         }
     </style>
 </head>
@@ -66,13 +114,45 @@
     <main>
         <section class="page-header">
             <div class="container">
-                <h1 data-i18n="blog.pageTitle">Blog</h1>
-                <p data-i18n="blog.pageDesc">Thoughts on web development, tech, and more</p>
+                <h1 data-i18n="food.pageTitle">Ẩm thực</h1>
+                <p data-i18n="food.pageDesc">Món ngon và đồ uống có sẵn trên Shopee Food</p>
             </div>
         </section>
-        <section class="blog-section">
+
+        <section class="food-section">
             <div class="container">
-                <div class="blog-grid" id="blogGrid"></div>
+                <div class="food-grid">
+                    <!-- Sample Item 1 -->
+                    <div class="food-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&h=600&fit=crop"
+                            alt="Healthy Salad" class="food-image">
+                        <div class="food-content">
+                            <h3 class="food-title">Salad Healthy</h3>
+                            <p class="food-price">45.000 ₫</p>
+                            <a href="#" class="shopee-btn">Đặt trên Shopee Food</a>
+                        </div>
+                    </div>
+                    <!-- Sample Item 2 -->
+                    <div class="food-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&h=600&fit=crop"
+                            alt="Pizza" class="food-image">
+                        <div class="food-content">
+                            <h3 class="food-title">Pizza Đặc Biệt</h3>
+                            <p class="food-price">120.000 ₫</p>
+                            <a href="#" class="shopee-btn">Đặt trên Shopee Food</a>
+                        </div>
+                    </div>
+                    <!-- Sample Item 3 -->
+                    <div class="food-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=600&fit=crop"
+                            alt="BBQ Ribs" class="food-image">
+                        <div class="food-content">
+                            <h3 class="food-title">Sườn Nướng BBQ</h3>
+                            <p class="food-price">150.000 ₫</p>
+                            <a href="#" class="shopee-btn">Đặt trên Shopee Food</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -113,7 +193,6 @@
 
     <script src="i18n.js"></script>
     <script src="main.js"></script>
-    <script src="blog.js"></script>
     <script src="particles.js"></script>
 </body>
 

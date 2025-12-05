@@ -11,6 +11,8 @@
         "home": "Home",
         "about": "About",
         "projects": "Projects",
+        "food": "Culinary",
+        "construction": "Construction",
         "blog": "Blog",
         "contact": "Contact"
     },
@@ -32,6 +34,14 @@
         "pageTitle": "My Projects",
         "pageDesc": "A collection of my work and side projects"
     },
+    "food": {
+        "pageTitle": "Culinary Delights",
+        "pageDesc": "Delicious food and beverages available on Shopee Food"
+    },
+    "construction": {
+        "pageTitle": "Construction & Interior",
+        "pageDesc": "Professional design and construction services"
+    },
     "blog": {
         "pageTitle": "Blog",
         "pageDesc": "Thoughts on web development, tech, and more"
@@ -43,6 +53,8 @@
         "email": "Email",
         "linkedin": "LinkedIn",
         "github": "GitHub",
+        "tiktok": "TikTok",
+        "facebook": "Facebook",
         "form": {
             "name": "Name",
             "email": "Email",

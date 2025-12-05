@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Van Dang - Blog</title>
-    <meta name="description" content="Blog của Van Dang về công nghệ và lập trình">
+    <title>Van Dang - Cơ khí & Xây dựng</title>
+    <meta name="description" content="Dịch vụ thiết kế và thi công cơ khí, xây dựng nội thất của Van Dang">
     <link rel="icon" href="logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -24,16 +24,61 @@
             background-clip: text;
         }
 
-        .page-header p {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-        }
-
-        .blog-grid {
+        .construction-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 2rem;
             padding: 2rem 0;
+        }
+
+        .service-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px var(--shadow);
+        }
+
+        .service-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .service-content {
+            padding: 1.5rem;
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .service-desc {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .contact-btn:hover {
+            background: var(--accent);
+            color: white;
         }
     </style>
 </head>
@@ -66,13 +111,48 @@
     <main>
         <section class="page-header">
             <div class="container">
-                <h1 data-i18n="blog.pageTitle">Blog</h1>
-                <p data-i18n="blog.pageDesc">Thoughts on web development, tech, and more</p>
+                <h1 data-i18n="construction.pageTitle">Cơ khí & Xây dựng Nội thất</h1>
+                <p data-i18n="construction.pageDesc">Dịch vụ thiết kế và thi công chuyên nghiệp</p>
             </div>
         </section>
-        <section class="blog-section">
+
+        <section class="construction-section">
             <div class="container">
-                <div class="blog-grid" id="blogGrid"></div>
+                <div class="construction-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop"
+                            alt="Mechanical Engineering" class="service-image">
+                        <div class="service-content">
+                            <h3 class="service-title">Gia công Cơ khí</h3>
+                            <p class="service-desc">Chuyên gia công các chi tiết cơ khí chính xác, kết cấu thép và các
+                                sản phẩm kim loại theo yêu cầu.</p>
+                            <a href="contact.html" class="contact-btn">Liên hệ tư vấn</a>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&h=600&fit=crop"
+                            alt="Interior Design" class="service-image">
+                        <div class="service-content">
+                            <h3 class="service-title">Thiết kế Nội thất</h3>
+                            <p class="service-desc">Tư vấn và thiết kế nội thất hiện đại, tối ưu không gian sống và làm
+                                việc của bạn.</p>
+                            <a href="contact.html" class="contact-btn">Liên hệ tư vấn</a>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop"
+                            alt="Construction" class="service-image">
+                        <div class="service-content">
+                            <h3 class="service-title">Thi công Xây dựng</h3>
+                            <p class="service-desc">Dịch vụ thi công xây dựng trọn gói, đảm bảo chất lượng và tiến độ
+                                cho mọi công trình.</p>
+                            <a href="contact.html" class="contact-btn">Liên hệ tư vấn</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -113,7 +193,6 @@
 
     <script src="i18n.js"></script>
     <script src="main.js"></script>
-    <script src="blog.js"></script>
     <script src="particles.js"></script>
 </body>
 
