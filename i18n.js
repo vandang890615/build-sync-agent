@@ -21,15 +21,6 @@ const baseEn = {
         "cta_work": "View Projects",
         "cta_contact": "Contact"
     },
-    "nav": {
-        "home": "Home",
-        "about": "About",
-        "projects": "Projects",
-        "food": "Culinary",
-        "construction": "Construction",
-        "blog": "Blog",
-        "contact": "Contact"
-    },
     "about": {
         "title": "About Me",
         "bio": "Passionate software engineer with 8+ years of experience building scalable web applications. Specialized in modern JavaScript frameworks, cloud architecture, and developer tooling. Love solving complex problems and mentoring junior developers."
@@ -101,7 +92,8 @@ const baseEn = {
         "description": "AI Engineer passionate about building great web experiences.",
         "quickLinks": "Quick Links",
         "connect": "Connect",
-        "copyright": "Built with ❤️"
+        "copyright": "Built with ❤️",
+        "certifications": "Certifications"
     },
     "aiNews": {
         "title": "AI & Tech News",
@@ -123,122 +115,52 @@ const baseEn = {
 };
 
 const resources = {
-    en: baseEn,
+    en: { ...baseEn, nav: { home: "Home", about: "About", projects: "Projects", food: "Culinary", construction: "Construction", blog: "Blog", contact: "Contact" } },
     vi: {
-        "nav": {
-            "home": "Trang chủ",
-            "about": "Giới thiệu",
-            "projects": "Dự án",
-            "food": "Ẩm thực",
-            "construction": "Cơ khí & Xây dựng",
-            "blog": "Blog",
-            "contact": "Liên hệ"
-        },
-        "hero": {
-            "greeting": "Xin chào, tôi là",
-            "title": "Kỹ sư AI & Nhà phát triển Full-Stack",
-            "description": "Xây dựng các hệ thống thông minh với AI/ML và công nghệ web hiện đại. Chuyên về LLMs, automation agents và ứng dụng có khả năng mở rộng.",
-            "cta_work": "Xem dự án",
-            "cta_contact": "Liên hệ"
-        },
-        "about": {
-            "title": "Về tôi",
-            "bio": "Kỹ sư phần mềm đam mê xây dựng các ứng dụng web có khả năng mở rộng. Chuyên về các framework JavaScript hiện đại, kiến trúc đám mây và công cụ phát triển. Yêu thích giải quyết các vấn đề phức tạp và hướng dẫn các nhà phát triển trẻ."
-        },
-        "profile": {
-            "name": "Van Dang",
-            "title": "Kỹ sư phần mềm cấp cao",
-            "location": "🌍 Ho Chi Minh City, VN"
-        },
-        "connect": {
-            "title": "Kết nối"
-        },
-        "projects": {
-            "title": "Dự án của tôi",
-            "viewAll": "Xem tất cả dự án",
-            "pageTitle": "Dự án của tôi",
-            "pageDesc": "Bộ sưu tập các công việc và dự án cá nhân của tôi"
-        },
-        "food": {
-            "pageTitle": "Ẩm thực",
-            "pageDesc": "Món ngon và đồ uống có sẵn trên Shopee Food"
-        },
-        "construction": {
-            "pageTitle": "Cơ khí & Xây dựng Nội thất",
-            "pageDesc": "Dịch vụ thiết kế và thi công chuyên nghiệp"
-        },
-        "blog": {
-            "pageTitle": "Blog",
-            "pageDesc": "Suy nghĩ về phát triển web, công nghệ và nhiều hơn nữa"
-        },
-        "contact": {
-            "pageTitle": "Liên hệ",
-            "pageDesc": "Bạn có ý tưởng dự án? Hãy cùng thảo luận!",
-            "infoTitle": "Thông tin liên hệ",
-            "email": "Email",
-            "linkedin": "LinkedIn",
-            "github": "GitHub",
-            "tiktok": "TikTok",
-            "facebook": "Facebook",
-            "form": {
-                "name": "Tên",
-                "email": "Email",
-                "message": "Tin nhắn",
-                "send": "Gửi tin nhắn",
-                "sending": "Đang gửi...",
-                "success": "✓ Tin nhắn đã được gửi thành công!"
-            }
-        },
-        "skills": {
-            "title": "Kỹ năng & Công nghệ",
-            "aiml": {
-                "title": "AI/ML",
-                "desc": "LLMs, LangChain, TensorFlow, PyTorch"
-            },
-            "automation": {
-                "title": "Automation",
-                "desc": "Playwright, Selenium, Agent Frameworks"
-            },
-            "frontend": {
-                "title": "Frontend",
-                "desc": "React, Next.js, TypeScript, Tailwind"
-            },
-            "backend": {
-                "title": "Backend",
-                "desc": "Node.js, Python, PostgreSQL, MongoDB"
-            }
-        },
-        "footer": {
-            "description": "Kỹ sư AI đam mê xây dựng trải nghiệm web tuyệt vời.",
-            "quickLinks": "Liên kết nhanh",
-            "connect": "Kết nối",
-            "copyright": "Được xây dựng với ❤️"
-        },
-        "aiNews": {
-            "title": "Tin tức AI & Công nghệ",
-            "items": [
-                {
-                    "title": "Những đột phá mới nhất về Mô hình Ngôn ngữ Lớn",
-                    "link": "#"
-                },
-                {
-                    "title": "Xu hướng tự động hóa 2025",
-                    "link": "#"
-                },
-                {
-                    "title": "Phát triển web với trợ lý AI",
-                    "link": "#"
-                }
-            ]
-        }
+        ...baseEn,
+        nav: { home: "Trang chủ", about: "Giới thiệu", projects: "Dự án", food: "Ẩm thực", construction: "Cơ khí & Xây dựng", blog: "Blog", contact: "Liên hệ" },
+        hero: { greeting: "Xin chào, tôi là", title: "Kỹ sư AI & Nhà phát triển Full-Stack", description: "Xây dựng các hệ thống thông minh với AI/ML và công nghệ web hiện đại.", cta_work: "Xem dự án", cta_contact: "Liên hệ" },
+        profile: { name: "Van Dang", title: "Kỹ sư phần mềm cấp cao", location: "🌍 Ho Chi Minh City, VN" },
+        food: { pageTitle: "Ẩm thực", pageDesc: "Món ngon và đồ uống có sẵn trên Shopee Food" },
+        construction: { pageTitle: "Cơ khí & Xây dựng", pageDesc: "Dịch vụ thiết kế và thi công chuyên nghiệp" },
+        footer: { description: "Kỹ sư AI đam mê xây dựng trải nghiệm web tuyệt vời.", quickLinks: "Liên kết nhanh", connect: "Kết nối", copyright: "Được xây dựng với ❤️", certifications: "Chứng chỉ" }
     },
-    // For other languages, we use English as a fallback for now to ensure functionality
-    zh: { ...baseEn, nav: { ...baseEn.nav, home: "首页", about: "关于", projects: "项目", blog: "博客", contact: "联系" } },
-    ja: { ...baseEn, nav: { ...baseEn.nav, home: "ホーム", about: "約", projects: "プロジェクト", blog: "ブログ", contact: "接触" } },
-    ko: { ...baseEn, nav: { ...baseEn.nav, home: "집", about: "약", projects: "프로젝트", blog: "블로그", contact: "접촉" } },
-    fr: { ...baseEn, nav: { ...baseEn.nav, home: "Accueil", about: "À propos", projects: "Projets", blog: "Blog", contact: "Contact" } },
-    de: { ...baseEn, nav: { ...baseEn.nav, home: "Startseite", about: "Über", projects: "Projekte", blog: "Blog", contact: "Kontakt" } },
-    it: { ...baseEn, nav: { ...baseEn.nav, home: "Home", about: "Di", projects: "Progetti", blog: "Blog", contact: "Contatto" } }
+    zh: {
+        ...baseEn,
+        nav: { home: "首页", about: "关于", projects: "项目", food: "美食", construction: "建筑", blog: "博客", contact: "联系" },
+        food: { pageTitle: "美食佳肴", pageDesc: "Shopee Food 上提供的美味食物和饮料" },
+        construction: { pageTitle: "建筑与室内设计", pageDesc: "专业的设计与施工服务" }
+    },
+    ja: {
+        ...baseEn,
+        nav: { home: "ホーム", about: "約", projects: "プロジェクト", food: "料理", construction: "建設", blog: "ブログ", contact: "接触" },
+        food: { pageTitle: "料理の楽しみ", pageDesc: "Shopee Foodで利用可能な美味しい食べ物と飲み物" },
+        construction: { pageTitle: "建設とインテリア", pageDesc: "プロフェッショナルなデザインと建設サービス" }
+    },
+    ko: {
+        ...baseEn,
+        nav: { home: "홈", about: "소개", projects: "프로젝트", food: "요리", construction: "건설", blog: "블로그", contact: "연락처" },
+        food: { pageTitle: "요리의 즐거움", pageDesc: "Shopee Food에서 맛있는 음식과 음료를 즐기세요" },
+        construction: { pageTitle: "건설 및 인테리어", pageDesc: "전문 디자인 및 시공 서비스" }
+    },
+    fr: {
+        ...baseEn,
+        nav: { home: "Accueil", about: "À propos", projects: "Projets", food: "Culinaire", construction: "Construction", blog: "Blog", contact: "Contact" },
+        food: { pageTitle: "Délices Culinaires", pageDesc: "Nourriture et boissons délicieuses disponibles sur Shopee Food" },
+        construction: { pageTitle: "Construction & Intérieur", pageDesc: "Services professionnels de conception et de construction" }
+    },
+    de: {
+        ...baseEn,
+        nav: { home: "Startseite", about: "Über", projects: "Projekte", food: "Kulinarisch", construction: "Bau", blog: "Blog", contact: "Kontakt" },
+        food: { pageTitle: "Kulinarische Köstlichkeiten", pageDesc: "Leckeres Essen und Getränke auf Shopee Food erhältlich" },
+        construction: { pageTitle: "Bau & Innenarchitektur", pageDesc: "Professionelle Design- und Baudienstleistungen" }
+    },
+    it: {
+        ...baseEn,
+        nav: { home: "Home", about: "Di", projects: "Progetti", food: "Culinario", construction: "Costruzione", blog: "Blog", contact: "Contatto" },
+        food: { pageTitle: "Delizie Culinarie", pageDesc: "Cibo e bevande deliziosi disponibili su Shopee Food" },
+        construction: { pageTitle: "Costruzione & Interni", pageDesc: "Servizi professionali di progettazione e costruzione" }
+    }
 };
 
 let translations = resources[currentLang];
@@ -273,6 +195,11 @@ function changeLanguage(lang) {
     translations = resources[lang];
     updatePageContent();
     updateLanguageButton();
+
+    // Close dropdown immediately
+    const dropdown = document.querySelector('.lang-dropdown');
+    if (dropdown) dropdown.remove();
+
     document.dispatchEvent(new CustomEvent('languageChanged', { detail: { language: lang } }));
 }
 

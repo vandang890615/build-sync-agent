@@ -8,7 +8,7 @@ async function loadProjects(lang = localStorage.getItem('language') || 'vi') {
     if (!container) return;
 
     container.innerHTML = projects.map(p => `
-    <div class="card fade-in">
+    <div class="card project-card fade-in">
       <img src="${p.image}" alt="${p.title}" style="width:100%;height:200px;object-fit:cover;border-radius:1rem 1rem 0 0;">
       <div style="padding:1.5rem;">
         <h3>${p.title}</h3>
