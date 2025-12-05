@@ -3,7 +3,7 @@ import os
 
 source_file = 'data/blog_en.json'
 target_langs = ['zh', 'ja', 'ko', 'fr', 'de', 'it']
-new_ids = [9, 10, 11, 12, 13]
+new_ids = [9, 10, 11, 12, 13, 14]
 
 # Read source data
 with open(source_file, 'r', encoding='utf-8') as f:

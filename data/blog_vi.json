@@ -137,7 +137,7 @@
             "LLM",
             "Trends"
         ],
-        "image": "https://images.unsplash.com/photo-1678911820864-e2c567c65530?w=800&h=400&fit=crop"
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
     },
     {
         "id": 11,
@@ -181,5 +181,20 @@
             "BIM"
         ],
         "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop"
+    },
+    {
+        "id": 14,
+        "title": "Claude Opus 4.5: Mô hình AI Thông minh Nhất của Anthropic",
+        "excerpt": "Claude 4 Opus là mô hình AI tiên tiến nhất của Anthropic, với khả năng suy luận vượt trội và hiểu ngữ cảnh sâu sắc.",
+        "content": "<p>Claude 4 Opus đánh dấu bước tiến vượt bậc trong lĩnh vực Mô hình Ngôn ngữ Lớn (LLMs). Được phát triển bởi Anthropic, Claude 4 Opus được thiết kế để trở thành trợ lý AI an toàn, hữu ích và trung thực nhất trên thị trường.</p><h3>I. Đặc điểm Nổi bật của Claude 4 Opus</h3><h4>1. Khả năng Suy luận Vượt trội</h4><p>Claude 4 Opus thể hiện khả năng suy luận logic và phân tích phức tạp hàng đầu. Mô hình có thể:</p><ul><li><strong>Giải quyết bài toán đa bước:</strong> Tự động phân tích vấn đề, chia nhỏ thành các bước logic và đưa ra giải pháp toàn diện.</li><li><strong>Hiểu ngữ cảnh sâu:</strong> Duy trì khả năng theo dõi các cuộc hội thoại dài và phức tạp mà không mất thông tin quan trọng.</li><li><strong>Suy luận đạo đức:</strong> Được huấn luyện đặc biệt để xem xét các khía cạnh đạo đức trong các quyết định.</li></ul><h4>2. Cửa sổ Ngữ cảnh Mở rộng</h4><p>Claude 4 Opus hỗ trợ cửa sổ ngữ cảnh lên đến 200,000 tokens, cho phép xử lý các tài liệu dài, mã nguồn lớn và các cuộc hội thoại phức tạp một cách liền mạch.</p><h4>3. Khả năng Đa phương thức</h4><p>Mô hình có thể xử lý và phân tích hình ảnh, biểu đồ, và các định dạng dữ liệu phức tạp khác, không chỉ giới hạn ở văn bản thuần túy.</p><h3>II. So sánh với các Mô hình Khác</h3><table style=\"width:100%; border-collapse: collapse; margin-bottom: 1rem;\"><thead><tr style=\"background-color: var(--bg-secondary);\"><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Đặc điểm</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Claude 4 Opus</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">GPT-4</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Gemini Pro</th></tr></thead><tbody><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Context Window</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">200K tokens</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">128K tokens</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">1M tokens</td></tr><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Đa phương thức</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Có</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Có</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Có</td></tr><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">An toàn AI</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Xuất sắc</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Tốt</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Tốt</td></tr></tbody></table><h3>III. Ứng dụng Thực tế</h3><ul><li><strong>Phát triển Phần mềm:</strong> Hỗ trợ viết code, debug, và review code với độ chính xác cao.</li><li><strong>Nghiên cứu và Phân tích:</strong> Tổng hợp thông tin từ nhiều nguồn, phân tích dữ liệu phức tạp.</li><li><strong>Sáng tạo Nội dung:</strong> Viết bài, tạo ý tưởng, và chỉnh sửa nội dung chuyên nghiệp.</li><li><strong>Tư vấn Kinh doanh:</strong> Phân tích chiến lược, đưa ra khuyến nghị dựa trên dữ liệu.</li></ul><h3>IV. Triết lý An toàn AI của Anthropic</h3><p>Anthropic xây dựng Claude dựa trên nguyên tắc Constitutional AI, trong đó mô hình được huấn luyện để:</p><ul><li><strong>Trung thực:</strong> Thừa nhận khi không biết hoặc không chắc chắn.</li><li><strong>Hữu ích:</strong> Tối đa hóa giá trị cho người dùng trong khuôn khổ an toàn.</li><li><strong>Vô hại:</strong> Từ chối các yêu cầu có thể gây hại hoặc trái đạo đức.</li></ul><p><strong>Kết luận:</strong> Claude 4 Opus đại diện cho thế hệ mới của AI conversational, kết hợp giữa sức mạnh xử lý, khả năng suy luận tiên tiến và cam kết mạnh mẽ về an toàn AI. Đây là lựa chọn hàng đầu cho các doanh nghiệp và cá nhân cần một trợ lý AI đáng tin cậy và thông minh.</p>",
+        "date": "2025-01-25",
+        "readTime": "7 phút đọc",
+        "tags": [
+            "AI",
+            "Claude",
+            "Anthropic",
+            "LLM"
+        ],
+        "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop"
     }
 ]
