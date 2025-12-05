@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "E-Commerce Platform",
+        "description": "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include product catalog, shopping cart, payment integration, and admin dashboard.",
+        "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
+        "tags": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Stripe"
+        ],
+        "github": "https://github.com/johndoe/ecommerce",
+        "demo": "https://demo-ecommerce.com",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Task Management App",
+        "description": "Collaborative task management tool with real-time updates. Built with Next.js, TypeScript, and Firebase.",
+        "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop",
+        "tags": [
+            "Next.js",
+            "TypeScript",
+            "Firebase",
+            "Tailwind"
+        ],
+        "github": "https://github.com/johndoe/taskapp",
+        "demo": "https://demo-tasks.com",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "title": "Weather Dashboard",
+        "description": "Beautiful weather dashboard with charts and forecasts. Uses OpenWeather API and Chart.js for visualizations.",
+        "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
+        "tags": [
+            "JavaScript",
+            "Chart.js",
+            "API",
+            "CSS"
+        ],
+        "github": "https://github.com/johndoe/weather",
+        "demo": "https://demo-weather.com",
+        "featured": false
+    },
+    {
+        "id": 4,
+        "title": "Portfolio Generator",
+        "description": "CLI tool to generate portfolio websites from JSON config. Built with Node.js and template engines.",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
+        "tags": [
+            "Node.js",
+            "CLI",
+            "EJS",
+            "npm"
+        ],
+        "github": "https://github.com/johndoe/portfolio-gen",
+        "demo": null,
+        "featured": false
+    }
+]

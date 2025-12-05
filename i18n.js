@@ -3,119 +3,127 @@ let currentLang = localStorage.getItem('language') || 'vi';
 
 const languages = {
     vi: { name: 'Tiếng Việt', flag: '🇻🇳' },
-    en: { name: 'English', flag: '🇬🇧' }
+    en: { name: 'English', flag: '🇬🇧' },
+    zh: { name: '中文', flag: '🇨🇳' },
+    ja: { name: '日本語', flag: '🇯🇵' },
+    ko: { name: '한국어', flag: '🇰🇷' },
+    fr: { name: 'Français', flag: '🇫🇷' },
+    de: { name: 'Deutsch', flag: '🇩🇪' },
+    it: { name: 'Italiano', flag: '🇮🇹' }
+};
+
+const baseEn = {
+    "title": "Van Dang - Software Engineer",
+    "hero": {
+        "greeting": "Hello, I am",
+        "title": "AI Engineer & Full-Stack Developer",
+        "description": "Building intelligent systems with AI/ML and modern web technologies. Specialized in LLMs, automation agents, and scalable applications.",
+        "cta_work": "View Projects",
+        "cta_contact": "Contact"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "food": "Culinary",
+        "construction": "Construction",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "about": {
+        "title": "About Me",
+        "bio": "Passionate software engineer with 8+ years of experience building scalable web applications. Specialized in modern JavaScript frameworks, cloud architecture, and developer tooling. Love solving complex problems and mentoring junior developers."
+    },
+    "profile": {
+        "name": "Van Dang",
+        "title": "Senior Software Engineer",
+        "location": "🌍 Ho Chi Minh City, VN"
+    },
+    "connect": {
+        "title": "Connect"
+    },
+    "projects": {
+        "title": "My Projects",
+        "viewAll": "View All Projects →",
+        "pageTitle": "My Projects",
+        "pageDesc": "A collection of my work and side projects"
+    },
+    "food": {
+        "pageTitle": "Culinary Delights",
+        "pageDesc": "Delicious food and beverages available on Shopee Food"
+    },
+    "construction": {
+        "pageTitle": "Construction & Interior",
+        "pageDesc": "Professional design and construction services"
+    },
+    "blog": {
+        "pageTitle": "Blog",
+        "pageDesc": "Thoughts on web development, tech, and more"
+    },
+    "contact": {
+        "pageTitle": "Get In Touch",
+        "pageDesc": "Have a project in mind? Let's talk!",
+        "infoTitle": "Contact Information",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "tiktok": "TikTok",
+        "facebook": "Facebook",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send Message",
+            "sending": "Sending...",
+            "success": "✓ Message sent successfully!"
+        }
+    },
+    "skills": {
+        "title": "Skills & Technologies",
+        "aiml": {
+            "title": "AI/ML",
+            "desc": "LLMs, LangChain, TensorFlow, PyTorch"
+        },
+        "automation": {
+            "title": "Automation",
+            "desc": "Playwright, Selenium, Agent Frameworks"
+        },
+        "frontend": {
+            "title": "Frontend",
+            "desc": "React, Next.js, TypeScript, Tailwind"
+        },
+        "backend": {
+            "title": "Backend",
+            "desc": "Node.js, Python, PostgreSQL, MongoDB"
+        }
+    },
+    "footer": {
+        "description": "AI Engineer passionate about building great web experiences.",
+        "quickLinks": "Quick Links",
+        "connect": "Connect",
+        "copyright": "Built with ❤️"
+    },
+    "aiNews": {
+        "title": "AI & Tech News",
+        "items": [
+            {
+                "title": "Latest breakthroughs in Large Language Models",
+                "link": "#"
+            },
+            {
+                "title": "Automation trends 2025",
+                "link": "#"
+            },
+            {
+                "title": "Web development with AI assistants",
+                "link": "#"
+            }
+        ]
+    }
 };
 
 const resources = {
-    en: {
-        "title": "Van Dang - Software Engineer",
-        "hero": {
-            "greeting": "Hello, I am",
-            "title": "AI Engineer & Full-Stack Developer",
-            "description": "Building intelligent systems with AI/ML and modern web technologies. Specialized in LLMs, automation agents, and scalable applications.",
-            "cta_work": "View Projects",
-            "cta_contact": "Contact"
-        },
-        "nav": {
-            "home": "Home",
-            "about": "About",
-            "projects": "Projects",
-            "food": "Culinary",
-            "construction": "Construction",
-            "blog": "Blog",
-            "contact": "Contact"
-        },
-        "about": {
-            "title": "About Me",
-            "bio": "Passionate software engineer with 8+ years of experience building scalable web applications. Specialized in modern JavaScript frameworks, cloud architecture, and developer tooling. Love solving complex problems and mentoring junior developers."
-        },
-        "profile": {
-            "name": "Van Dang",
-            "title": "Senior Software Engineer",
-            "location": "🌍 Ho Chi Minh City, VN"
-        },
-        "connect": {
-            "title": "Connect"
-        },
-        "projects": {
-            "title": "My Projects",
-            "viewAll": "View All Projects →",
-            "pageTitle": "My Projects",
-            "pageDesc": "A collection of my work and side projects"
-        },
-        "food": {
-            "pageTitle": "Culinary Delights",
-            "pageDesc": "Delicious food and beverages available on Shopee Food"
-        },
-        "construction": {
-            "pageTitle": "Construction & Interior",
-            "pageDesc": "Professional design and construction services"
-        },
-        "blog": {
-            "pageTitle": "Blog",
-            "pageDesc": "Thoughts on web development, tech, and more"
-        },
-        "contact": {
-            "pageTitle": "Get In Touch",
-            "pageDesc": "Have a project in mind? Let's talk!",
-            "infoTitle": "Contact Information",
-            "email": "Email",
-            "linkedin": "LinkedIn",
-            "github": "GitHub",
-            "tiktok": "TikTok",
-            "facebook": "Facebook",
-            "form": {
-                "name": "Name",
-                "email": "Email",
-                "message": "Message",
-                "send": "Send Message",
-                "sending": "Sending...",
-                "success": "✓ Message sent successfully!"
-            }
-        },
-        "skills": {
-            "title": "Skills & Technologies",
-            "aiml": {
-                "title": "AI/ML",
-                "desc": "LLMs, LangChain, TensorFlow, PyTorch"
-            },
-            "automation": {
-                "title": "Automation",
-                "desc": "Playwright, Selenium, Agent Frameworks"
-            },
-            "frontend": {
-                "title": "Frontend",
-                "desc": "React, Next.js, TypeScript, Tailwind"
-            },
-            "backend": {
-                "title": "Backend",
-                "desc": "Node.js, Python, PostgreSQL, MongoDB"
-            }
-        },
-        "footer": {
-            "description": "AI Engineer passionate about building great web experiences.",
-            "quickLinks": "Quick Links",
-            "connect": "Connect",
-            "copyright": "Built with ❤️"
-        },
-        "aiNews": {
-            "title": "AI & Tech News",
-            "items": [
-                {
-                    "title": "Latest breakthroughs in Large Language Models",
-                    "link": "#"
-                },
-                {
-                    "title": "Automation trends 2025",
-                    "link": "#"
-                },
-                {
-                    "title": "Web development with AI assistants",
-                    "link": "#"
-                }
-            ]
-        }
-    },
+    en: baseEn,
     vi: {
         "nav": {
             "home": "Trang chủ",
@@ -223,7 +231,14 @@ const resources = {
                 }
             ]
         }
-    }
+    },
+    // For other languages, we use English as a fallback for now to ensure functionality
+    zh: { ...baseEn, nav: { ...baseEn.nav, home: "首页", about: "关于", projects: "项目", blog: "博客", contact: "联系" } },
+    ja: { ...baseEn, nav: { ...baseEn.nav, home: "ホーム", about: "約", projects: "プロジェクト", blog: "ブログ", contact: "接触" } },
+    ko: { ...baseEn, nav: { ...baseEn.nav, home: "집", about: "약", projects: "프로젝트", blog: "블로그", contact: "접촉" } },
+    fr: { ...baseEn, nav: { ...baseEn.nav, home: "Accueil", about: "À propos", projects: "Projets", blog: "Blog", contact: "Contact" } },
+    de: { ...baseEn, nav: { ...baseEn.nav, home: "Startseite", about: "Über", projects: "Projekte", blog: "Blog", contact: "Kontakt" } },
+    it: { ...baseEn, nav: { ...baseEn.nav, home: "Home", about: "Di", projects: "Progetti", blog: "Blog", contact: "Contatto" } }
 };
 
 let translations = resources[currentLang];
