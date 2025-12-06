@@ -12,11 +12,11 @@ class MusicPlayer {
     init() {
         // Create audio element
         this.audio = new Audio();
-        // Using a royalty-free ambient music from a CDN
-        // You can replace this with your own music file
-        this.audio.src = 'https://cdn.pixabay.com/audio/2022/03/10/audio_2c87ba15c6.mp3';
+        // Using royalty-free lo-fi music
+        this.audio.src = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3';
         this.audio.loop = true;
         this.audio.volume = this.currentVolume;
+        this.audio.crossOrigin = "anonymous";
 
         // Create player UI
         this.createPlayerUI();
