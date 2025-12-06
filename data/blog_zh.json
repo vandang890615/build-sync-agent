@@ -113,79 +113,79 @@
     },
     {
         "id": 9,
-        "title": "LightRAG: Simple, Fast, and Effective for RAG Applications",
-        "excerpt": "LightRAG is a powerful, lightweight, and modular library designed for Retrieval Augmented Generation (RAG) applications.",
+        "title": "LightRAG：简单、快速且高效的RAG应用",
+        "excerpt": "LightRAG是一个强大、轻量且模块化的库，专为检索增强生成(RAG)应用而设计。",
         "content": "<p>LightRAG is a powerful, lightweight, and modular library designed for Retrieval Augmented Generation (RAG) applications, integrating RAG, agents, and optimizers, specifically utilizing Knowledge Graphs to improve retrieval capabilities.</p><h3>🛠️ Installation and Setup</h3><p>You can run LightRAG using Docker for an easy environment setup:</p><pre><code class=\"language-bash\"># Clone Repository\ngit clone https://github.com/HKUDS/LightRAG.git\ncd LightRAG\n\n# Start Server\ndocker compose up -d</code></pre><p>Once launched, you can access the Web UI at: <code>http://localhost:9621/webui/</code></p><h3>🚀 Basic Usage Guide via Web UI</h3><ol><li><strong>Document Ingestion:</strong> Go to the \"Documents\" tab, upload PDF/TXT/DOCX files. LightRAG will automatically process, chunk text, and build a Knowledge Graph using LLM.</li><li><strong>Explore Knowledge Graph:</strong> Visually explore extracted entities and relationships in the \"Knowledge Graph\" tab.</li><li><strong>Querying:</strong> Enter questions in the \"Chat\" tab. LightRAG offers various query modes:<ul><li><strong>Naive:</strong> Vector-based retrieval.</li><li><strong>Local:</strong> Uses local subgraphs.</li><li><strong>Global:</strong> Considers the entire knowledge graph.</li><li><strong>Hybrid:</strong> Combines Local and Global strategies.</li></ul></li></ol><h3>🐍 Using as a Python Library</h3><pre><code class=\"language-python\"># Initialize LightRAG and Storage\nawait rag.initialize_storages()\n\n# Insert text\nawait rag.ainsert(\"Your text\")\n\n# Query\nawait rag.aquery(\"Your question\", mode=\"hybrid\")</code></pre><p>LightRAG provides a comprehensive solution for building smarter RAG applications with deep contextual understanding thanks to Knowledge Graphs.</p>",
         "date": "2024-12-08",
         "readTime": "6 min read",
         "tags": [
             "AI",
             "RAG",
-            "Knowledge Graph"
+            "知识图谱"
         ],
         "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=400&fit=crop"
     },
     {
         "id": 10,
-        "title": "Understanding Large Language Models (LLMs)",
-        "excerpt": "Explore how LLMs work, from Transformer architecture to training processes and their impressive capabilities.",
+        "title": "理解大型语言模型(LLMs)",
+        "excerpt": "探索LLMs的工作原理，从Transformer架构到训练过程及其令人印象深刻的能力。",
         "content": "<p>Large Language Models (LLMs) are the heart of the modern AI revolution. They are Deep Neural Networks designed to understand and generate natural language.</p><h3>🏗️ How LLMs Work</h3><p>The process involves three main stages:</p><ol><li><strong>Training on Massive Data:</strong> The model learns to predict the next word from terabytes of text data, grasping grammar and world knowledge.</li><li><strong>Transformer Architecture:</strong> Uses the <strong>Attention Mechanism</strong> to process entire sentences at once and understand relationships between words, rather than sequentially.</li><li><strong>Fine-Tuning:</strong> Uses methods like RLHF (Reinforcement Learning from Human Feedback) to make the model more helpful and safe.</li></ol><h3>🎯 Key Capabilities</h3><ul><li><strong>Text Generation:</strong> Writing emails, code, poetry.</li><li><strong>Summarization:</strong> Condensing long documents.</li><li><strong>Translation:</strong> Accurate language translation.</li><li><strong>Q&A:</strong> Answering based on learned knowledge.</li></ul><h3>💡 Limitations and Future</h3><p>LLMs still face issues with \"hallucinations\" and data bias. However, the future points towards <strong>Multimodal Models</strong> (handling images/audio) and better reasoning capabilities, opening the era of truly intelligent AI assistants.</p>",
         "date": "2024-12-09",
         "readTime": "8 min read",
         "tags": [
             "AI",
-            "LLM",
-            "Deep Learning"
+            "大型语言模型",
+            "深度学习"
         ],
         "image": "https://images.unsplash.com/photo-1678911820864-e2c567c65530?w=800&h=400&fit=crop"
     },
     {
         "id": 11,
-        "title": "Automation Trends in 2025",
-        "excerpt": "Automation is transforming with the rise of AI Agents and Hyper-automation.",
+        "title": "2025年自动化趋势",
+        "excerpt": "随着AI智能体和超自动化的兴起，自动化正在发生变革。",
         "content": "<p>2025 marks a turning point for automation, moving from simple repetitive processes to intelligent systems capable of decision-making.</p><h3>1. From RPA to Agentic Automation</h3><p>Traditional Robotic Process Automation (RPA) is being replaced by <strong>AI Agents</strong>. Instead of just following rigid scripts, these Agents can understand context, handle exceptions, and dynamically adjust workflows.</p><h3>2. Hyper-automation</h3><p>The combination of AI, Machine Learning, and RPA creates Hyper-automation, allowing automation of almost every business process, from customer care to supply chain management.</p><h3>3. Natural Language and Voice-Based Automation</h3><p>User interfaces are shifting to voice and natural text control, enabling any employee to create their own automated workflows without knowing code (No-Code/Low-Code).</p>",
         "date": "2025-01-10",
         "readTime": "5 min read",
         "tags": [
-            "Automation",
-            "AI Agents",
-            "Tech Trends"
+            "自动化",
+            "AI智能体",
+            "科技趋势"
         ],
         "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop"
     },
     {
         "id": 12,
-        "title": "Web Development with AI Assistants",
-        "excerpt": "How GitHub Copilot, ChatGPT, and Gemini are reshaping the software development process.",
+        "title": "使用AI助手进行Web开发",
+        "excerpt": "GitHub Copilot、ChatGPT和Gemini如何重塑软件开发流程。",
         "content": "<p>AI Assistants are becoming indispensable companions for Web developers.</p><h3>⚡ Accelerating Coding Speed</h3><p>Tools like GitHub Copilot can suggest entire long code blocks and boilerplate code, helping developers focus on more complex logic. Writing basic HTML/CSS or utility functions is faster than ever.</p><h3>🎨 UI Generation</h3><p>With tools like V0.dev or Gemini, you can describe interfaces in words and receive complete React/Tailwind code. This significantly shortens the time from idea to prototype.</p><h3>🐛 Debugging and Optimization</h3><p>AI doesn't just write code; it also explains errors and suggests performance optimizations. It acts as a mentor always by your side.</p><p>However, developers still need to maintain control, understanding the generated code to ensure security and software quality.</p>",
         "date": "2025-01-15",
         "readTime": "6 min read",
         "tags": [
-            "Web Dev",
-            "AI Tools",
+            "Web开发",
+            "AI工具",
             "Copilot"
         ],
         "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&h=400&fit=crop"
     },
     {
         "id": 13,
-        "title": "Overview of Software in Mechanical Engineering - Construction & Interior",
-        "excerpt": "Software in this field spans from 2D design, 3D modeling, BIM, to in-depth structural analysis and MEP.",
+        "title": "机械工程 - 建筑与室内设计软件概览",
+        "excerpt": "该领域的软件涵盖从2D设计、3D建模、BIM到深度结构分析和MEP。",
         "content": "<p>Software in the Mechanical Engineering - Construction & Interior industry is increasingly diverse and specialized. Below is an overview of the most popular tool groups.</p><h3>I. 2D/3D Design and Architecture/Interior Tools</h3><p>This group focuses on creating detailed technical drawings, geometric models, and visualizing design ideas.</p><table style=\"width:100%; border-collapse: collapse; margin-bottom: 1rem;\"><thead><tr style=\"background-color: var(--bg-secondary);\"><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Software</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Manufacturer</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Main Function</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Key Applications</th></tr></thead><tbody><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">AutoCAD</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Autodesk</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">2D/3D Design</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Industry standard for technical drawings.</td></tr><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">SketchUp</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Trimble</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">3D Modeling</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Quick sketching, interior, architecture.</td></tr><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Revit</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Autodesk</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">BIM</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Integrated architecture, structure, MEP design.</td></tr></tbody></table><h3>II. Structural Analysis and Design Tools</h3><p>For structural engineers, load calculation and stress analysis.</p><table style=\"width:100%; border-collapse: collapse; margin-bottom: 1rem;\"><thead><tr style=\"background-color: var(--bg-secondary);\"><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Software</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Manufacturer</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Function</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Applications</th></tr></thead><tbody><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">ETABS</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">CSI</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">High-rise structures</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Earthquake, wind analysis, reinforced concrete.</td></tr><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">SAP2000</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">CSI</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">General structures</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Bridges, dams, transmission towers.</td></tr></tbody></table><h3>III. Steel Structure Modeling Tools</h3><p>Specialized in detailed steel modeling and shop drawings.</p><table style=\"width:100%; border-collapse: collapse; margin-bottom: 1rem;\"><thead><tr style=\"background-color: var(--bg-secondary);\"><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Software</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Function</th></tr></thead><tbody><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Tekla Structures</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Detailed steel & concrete modeling, shop drawings.</td></tr><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Advance Steel</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">3D steel modeling on AutoCAD platform.</td></tr></tbody></table><h3>IV. MEP (Mechanical, Electrical, Plumbing) Tools</h3><p>Designing HVAC, Electrical, and Plumbing systems.</p><table style=\"width:100%; border-collapse: collapse; margin-bottom: 1rem;\"><thead><tr style=\"background-color: var(--bg-secondary);\"><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Software</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Manufacturer</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Function</th></tr></thead><tbody><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Revit MEP</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Autodesk</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">BIM for MEP, clash detection.</td></tr><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">AutoCAD MEP</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Autodesk</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Technical system drawings.</td></tr></tbody></table>",
         "date": "2025-01-20",
         "readTime": "8 min read",
         "tags": [
-            "Mechanical",
-            "Construction",
-            "Software",
+            "机械",
+            "建筑",
+            "软件",
             "BIM"
         ],
         "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=400&fit=crop"
     },
     {
         "id": 14,
-        "title": "Claude Opus 4.5: Anthropic's Most Intelligent AI Model",
-        "excerpt": "Claude 4 Opus is Anthropic's most advanced AI model, featuring superior reasoning capabilities and deep context understanding.",
+        "title": "Claude Opus 4.5：Anthropic最智能的AI模型",
+        "excerpt": "Claude 4 Opus是Anthropic最先进的AI模型，具有卓越的推理能力和深度上下文理解。",
         "content": "<p>Claude 4 Opus marks a significant leap forward in Large Language Models (LLMs). Developed by Anthropic, Claude 4 Opus is designed to be the safest, most helpful, and most honest AI assistant on the market.</p><h3>I. Key Features of Claude 4 Opus</h3><h4>1. Superior Reasoning Capabilities</h4><p>Claude 4 Opus demonstrates industry-leading logical reasoning and complex analysis. The model can:</p><ul><li><strong>Solve multi-step problems:</strong> Automatically analyze issues, break them into logical steps, and provide comprehensive solutions.</li><li><strong>Deep context understanding:</strong> Maintain tracking of long and complex conversations without losing important information.</li><li><strong>Ethical reasoning:</strong> Specially trained to consider ethical aspects in decision-making.</li></ul><h4>2. Extended Context Window</h4><p>Claude 4 Opus supports a context window of up to 200,000 tokens, allowing seamless processing of long documents, large codebases, and complex conversations.</p><h4>3. Multimodal Capabilities</h4><p>The model can process and analyze images, charts, and other complex data formats, not just plain text.</p><h3>II. Comparison with Other Models</h3><table style=\"width:100%; border-collapse: collapse; margin-bottom: 1rem;\"><thead><tr style=\"background-color: var(--bg-secondary);\"><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Feature</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Claude 4 Opus</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">GPT-4</th><th style=\"padding: 0.5rem; border: 1px solid var(--border);\">Gemini Pro</th></tr></thead><tbody><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Context Window</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">200K tokens</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">128K tokens</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">1M tokens</td></tr><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Multimodal</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Yes</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Yes</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Yes</td></tr><tr><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">AI Safety</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Excellent</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Good</td><td style=\"padding: 0.5rem; border: 1px solid var(--border);\">Good</td></tr></tbody></table><h3>III. Practical Applications</h3><ul><li><strong>Software Development:</strong> Support for writing, debugging, and reviewing code with high accuracy.</li><li><strong>Research and Analysis:</strong> Synthesizing information from multiple sources, analyzing complex data.</li><li><strong>Content Creation:</strong> Writing articles, generating ideas, and editing professional content.</li><li><strong>Business Consulting:</strong> Strategic analysis, providing data-driven recommendations.</li></ul><h3>IV. Anthropic's AI Safety Philosophy</h3><p>Anthropic builds Claude based on Constitutional AI principles, where the model is trained to:</p><ul><li><strong>Honest:</strong> Acknowledge when it doesn't know or is uncertain.</li><li><strong>Helpful:</strong> Maximize value for users within safe boundaries.</li><li><strong>Harmless:</strong> Refuse requests that could cause harm or are unethical.</li></ul><p><strong>Conclusion:</strong> Claude 4 Opus represents the new generation of conversational AI, combining processing power, advanced reasoning capabilities, and a strong commitment to AI safety. It's the top choice for businesses and individuals needing a reliable and intelligent AI assistant.</p>",
         "date": "2025-01-25",
         "readTime": "7 min read",
